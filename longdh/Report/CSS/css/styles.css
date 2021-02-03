@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+main{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+main aside{
+    background: #eee;
+}
+main aside ul{
+    list-style: none;
+    display: block;
+    margin-top: 4em;
+    background: #f9f9f9;
+}
+main aside li{
+    display: block;
+    padding: 0.5em 1.5em;
+}
+main aside a{
+    color:inherit;
+    display: block;
+    padding: 1em;
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #000000;
+}
+.active{
+    background: #398df0;
+    color: #ffffff;
+}
+main article{
+    padding: 2em;
+}
+main h2{
+    margin-top: 3em;
+    font-size: 3em;
+    width: fit-content;
+}
+main h2:first-child{
+    margin-top: 0;
+}
+main h2:after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #aaa;
+}
+.container{
+    margin: 1em;
+}
+
+.box h3, .box ul{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+/* Basic Selector */
+.box p{
+    font-size: 20px;
+}
+p{
+    color: blue;
+}
+.hola-class{
+    color: red;
+}
+#hola-id{
+    color: darkred;
+}
+
+/* Decendant */
+
+ul, ol{
+    margin-left: 2em;
+    background-color: white;
+}
+/*.box ul{
+    background-color: red;
+}
+.box > ul{
+    background-color: blue;
+}
+p ~ ul{
+    background-color: brown;
+}
+p + ul{
+    background-color: yellowgreen;
+} */
+
+/* ul:first-of-type{
+    font-weight: bold;
+}
+ul:first-child{
+    text-decoration: underline;
+}
+ul:only-of-type{
+    font-size: 1.5em;
+} */
+
+/* Pseudo */
+
+.box table{
+    margin: 0.4em;
+    font-size: 2em;
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 0.4em;
+} 
+table.exp td, table.exp th{
+    border: 1px solid black;
+
+}
+table.exp tr td{
+    text-align: left;
+}
+table.exp td:nth-child(3){
+    background: yellowgreen;
+}
+
+table.exp tr:nth-child(odd){
+    background: #ccc;
+}
+
+table.exp td:only-child{
+    background: violet;
+    color: white;
+}
+table.exp tr:not(.exception){
+    font-weight: bold;
+}
+table.exp tr:first-of-type{
+    text-decoration: underline;
+}
+/* pseudo form */
+table input{
+    padding: 0.2em;
+    font-size: 1em;
+}
+table td:first-child{
+    text-align: right;
+}
+table input:checked{
+    margin-right: 1em;
+    transform: scale(1.6,1.6);
+}
+table input:default{
+    box-shadow: 0 0 1px 1px salmon;
+}
+table td:empty{
+    padding: 1em;
+    background: sandybrown;
+}
+table input:required{
+    background-color: yellow;
+}
+table td.required::after{
+    content: "*";
+    color: red;
+}
+form h3::first-letter{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+form h3::first-line{
+    font-size: 1.2em;
+}
+
+/* Attribute */
+.box a{
+    font-size: 2em;
+    text-decoration: none;
+}
+/* a:link{
+    font-weight: bold;
+} */
+/* a:active{
+    font-size: 1.5em;
+} */
+/* a:hover{
+    background: silver;
+} */
+/* a:visited{
+    text-decoration: underline;
+} */
+/* [href]{
+    color:lightcoral;
+}
+[href~=http], [href*="http"]{
+    color: lawngreen;
+}
+[href$="html"]{
+    color: lightslategray;
+}
+[href^="a"], [href|=a]{
+    color: lime;
+} */
+
+/* Other */
+/* :root{
+    background: #398df0;
+} */
+/* ::selection{
+    color: pink;
+    background: plum;
+} */
+

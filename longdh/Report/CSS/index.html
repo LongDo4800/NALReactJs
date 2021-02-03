@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Examples</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <main>
+            <aside>
+                <ul>
+                    <li><a href="">Basic Selectors</a></li>
+                    <li><a href="">Decendant Selectors</a></li>
+                    <li><a href="">Pseudo Selectors</a></li>
+                    <li><a href="">Attribute Selectors</a></li>
+                    <li><a href="">Other</a></li>
+                </ul>
+            </aside>
+            <article>
+                <h2>Basic Selectors</h2>
+                <div class="box">
+                    <h3>Code</h3>
+                    <div class="code">
+                        <img src="images/exp01.PNG">
+                        <img src="images/exp02.PNG">
+                    </div>
+                    <h3>Example</h3>
+                    <div class="example">
+                        <div class="container">
+                            <div class="paragraph-container">
+                                <p id="hola-id" class="hola-class">Hola World</p>
+                                <p class="hola-class">Hello World</p>
+                                <p>Hello Again World</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Decendant Selectors</h2>
+                <div class="box">
+                    <h3>Code</h3>
+                    <div class="code">
+                    </div>
+                    <h3>Example</h3>
+                    <ul>
+                        <li>0.1</li>
+                        <li>0.2</li>
+                        <li>0.3</li>
+                    </ul>
+                    <p>My paragraph 2</p>
+                    <ul>
+                        <li>1.0</li>
+                        <li>2.0
+                            <ul>
+                                <li>2.1</li>
+                                <li>2.2</li>
+                                <li>2.3</li>
+                            </ul>    
+                        </li>
+                        <li>3.0</li>
+                    </ul>
+                    <ul>
+                        <li>4.1</li>
+                        <li>4.2</li>
+                        <li>4.3</li>
+                    </ul>
+                </div>
+                <h2>Pseudo Selectors</h2>
+                <div class="box">
+                    <h3>Code</h3>
+                    <div class="code">
+                    </div>
+                    <h3>Example</h3>
+                    <div class="example">
+                        <table class="exp">
+                            <tr>
+                                <th>First</th>
+                                <th>Second</th>
+                                <th>Third</th>
+                                <th>Fourth</th>
+                                <td>Fifth</td>
+                            </tr>
+                            <tr>
+                                <td>Even</td>
+                                <td>Even</td>
+                                <td>Even</td>
+                                <td class="exception">Even</td>
+                                <td>Even</td>
+                            </tr>
+                            <tr class="exception">
+                                <td>Odd</td>
+                                <td>Odd</td>
+                                <td>Odd</td>
+                                <td>Odd</td>
+                                <td>Odd</td>
+                            </tr>
+                            <tr>
+                                <td>Even</td>
+                                <td>Even</td>
+                                <td>Even</td>
+                                <td>Even</td>
+                                <td>Even</td>
+                            </tr>
+                            <tr>
+                                <td>Odd</td>
+                                <td>Odd</td>
+                                <td>Odd</td>
+                                <td>Odd</td>
+                                <td>Odd</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">The Left Out</td>
+                                <!-- <td colspan="2">The Left Out</td>
+                                <td colspan="3">The Left Out</td> -->
+                            </tr>
+                        </table>
+                        <form>
+                        <h3>This is some heading</h3>
+                        <table>
+                            <tr>
+                                <td><label for="txtF" >Some text:</label></td>
+                                <td><input type="text" name="txtF" placeholder="holding things"></td>
+                            </tr>
+                            <tr>
+                                <td><label class="required" for="txtR">Text but required:</label></td>
+                                <td><input type="text" name="txtR" required></td>
+                            </tr>
+                            <tr>
+                                <td>Radio:</td>
+                                <td>
+                                    <input type="radio" name="rdTest">Pick Me<br>
+                                    <input type="radio" name="rdTest" checked>And Me
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Tab</td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        </form>
+                    </div>
+                </div>
+                <h2>Attribute Selectors</h2>
+                <div class="box">
+                    <h3>Code</h3>
+                    <div class="code">
+                    </div>
+                    <h3>Example</h3>
+                    <div class="example">
+                        <ol>
+                            <li><a>no href</a></li>
+                            <li><a href="">href=""</a></li>
+                            <li><a href="https://localhost:5500">href="https://localhost:5500"</a></li>
+                            <li><a href="index.html">href="index.html"</a></li>
+                            <li><a href="a">href="a"</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <h2>Other</h2>
+                <div class="box">
+                    <h3>Code</h3>
+                    <div class="code">
+                    </div>
+                    <h3>Example</h3>
+                    <div class="example">
+                        <div class="container">
+                            <div class="paragraph-container">
+                                <p id="hola-id" class="hola-class">Hola World</p>
+                                <p class="hola-class">Hello World</p>
+                                <p>Hello Again World</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>

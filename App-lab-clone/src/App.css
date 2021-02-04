@@ -1,0 +1,22 @@
+.App {
+  font-family: poppinsR;
+}
+
+@font-face {
+  font-family: poppinsB;
+  src: url(./Fonts/Poppins-Bold.ttf) format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: poppinsR;
+  src: url(./Fonts/Poppins-Regular.ttf) format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: poppinsSB;
+  src:url(./Fonts/Poppins-SemiBold.ttf) format("woff");
+  font-weight: 600;
+}
+p{
+  color: #626262;
+}

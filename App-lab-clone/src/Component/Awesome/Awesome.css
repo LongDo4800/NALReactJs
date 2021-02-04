@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0%;
+}
+
+.container {
+  width: 100%;
+  margin: 150px 0 50px 0;
+}
+
+.container .apps {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1662px) {
+  .container .apps {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1662px) and (max-width: 1330px) {
+  .container .apps .app__info {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1662px) and (max-width: 1330px) {
+  .container .apps .app__img {
+    width: 500px;
+  }
+}
+
+.container .apps .app__img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.container .apps .app__info {
+  width: 455px;
+  margin-left: 30px;
+}
+
+.container .apps .app__info h1 {
+  font-size: 38px;
+  font-family: poppinsSB;
+  font-weight: 600;
+  margin-top: 40px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.container .apps .app__info > p {
+  margin-bottom: 100px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.container .apps .app__info .app__info__features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.container .apps .app__info .app__info__features .app__info__features__detail {
+  margin-left: 40px;
+}
+
+.container .apps .app__info .img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=Awesome.css.map */

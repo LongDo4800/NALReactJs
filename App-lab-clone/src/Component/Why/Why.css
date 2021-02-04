@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.contai {
+  width: 100%;
+  margin: 150px 0 150px;
+}
+
+.contai .why {
+  margin: auto;
+  width: 60%;
+}
+
+@media screen and (max-width: 1330px) {
+  .contai .why {
+    width: 90%;
+  }
+}
+
+.contai .why .info {
+  text-align: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contai .why .info h1 {
+  font-family: poppinsSB;
+  font-weight: 600;
+  font-size: 38px;
+  width: 45%;
+  margin: 0 auto 30px;
+}
+
+@media screen and (max-width: 1330px) {
+  .contai .why .info h1 {
+    width: 500px;
+  }
+}
+
+.contai .why .info p {
+  margin: 30px 0 30px;
+  width: 55%;
+  margin: auto;
+}
+
+.contai .why .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  margin: 30px 0 30px;
+}
+
+.contai .why .items .items__content {
+  width: 300px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 25%;
+  margin: 30px 0 30px;
+}
+
+.contai .why .items .items__content .img {
+  margin-bottom: 20px;
+}
+
+.contai .why .items .items__content .app__info__features__detail h3 {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=Why.css.map */

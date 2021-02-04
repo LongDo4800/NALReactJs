@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  margin: 30px auto;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 1330px) {
+  header nav {
+    width: 95%;
+  }
+}
+
+header nav .logo {
+  font-family: poppinsB;
+  text-align: center;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+header nav .logo a {
+  color: black;
+  text-decoration: none;
+}
+
+header nav .logo a strong {
+  color: #f97350;
+}
+
+header nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .navbar ul {
+  list-style: none;
+}
+
+header nav .navbar ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+header nav .navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav .navbar .tryit {
+  margin-left: 20px;
+  cursor: pointer;
+  width: 180px;
+  height: 60px;
+  line-height: 55px;
+  font-size: 16px;
+  background-color: #2034e6;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (max-width: 1330px) {
+  header nav .navbar .tryit {
+    display: none;
+  }
+}
+
+header nav .navbar .tryit:hover {
+  background-color: #2034e6e1;
+  color: #f97350;
+}
+
+header nav .navbar .tryit a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/*# sourceMappingURL=Header.css.map */

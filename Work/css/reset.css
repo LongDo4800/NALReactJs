@@ -1,0 +1,23 @@
+*,::after,::before{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header, section{
+    position: relative;
+}
+
+img{
+    display: block;
+}

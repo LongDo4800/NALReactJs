@@ -85,26 +85,26 @@ ul, ol{
     margin-left: 2em;
     background-color: white;
 }
-/*.box ul{
+/* .box ul{
     background-color: red;
 }
 .box > ul{
     background-color: blue;
-}
+} */
 p ~ ul{
     background-color: brown;
 }
 p + ul{
     background-color: yellowgreen;
-} */
+}
 
-/* ul:first-of-type{
+ul:first-of-type{
     font-weight: bold;
 }
 ul:first-child{
     text-decoration: underline;
 }
-ul:only-of-type{
+/* ul:only-of-type{
     font-size: 1.5em;
 } */
 
@@ -130,7 +130,7 @@ table.exp td:nth-child(3){
     background: yellowgreen;
 }
 
-table.exp tr:nth-child(odd){
+table.exp tr:nth-child(even){
     background: #ccc;
 }
 
@@ -166,7 +166,7 @@ table td:empty{
 table input:required{
     background-color: yellow;
 }
-table td.required::after{
+table label.required::after{
     content: "*";
     color: red;
 }
@@ -176,6 +176,7 @@ form h3::first-letter{
 }
 form h3::first-line{
     font-size: 1.2em;
+    color:blue;
 }
 
 /* Attribute */
@@ -183,19 +184,22 @@ form h3::first-line{
     font-size: 2em;
     text-decoration: none;
 }
-/* a:link{
+a:link{
     font-weight: bold;
-} */
-/* a:active{
+} 
+ a:active{
     font-size: 1.5em;
-} */
-/* a:hover{
+} 
+ a:hover{
     background: silver;
-} */
-/* a:visited{
+}
+a:visited{
     text-decoration: underline;
-} */
-/* [href]{
+}
+a:focus{
+    font-weight: bold;
+}
+[href]{
     color:lightcoral;
 }
 [href~=http], [href*="http"]{
@@ -206,14 +210,13 @@ form h3::first-line{
 }
 [href^="a"], [href|=a]{
     color: lime;
-} */
+}
 
 /* Other */
 /* :root{
     background: #398df0;
 } */
-/* ::selection{
+::selection{
     color: pink;
     background: plum;
-} */
-
+}

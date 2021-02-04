@@ -1,0 +1,253 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+/* Shared */
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+.brand{
+    font-size: 30px;
+    color: #242f51;
+    font-weight: bold;
+}
+.brand span{
+    color: #fcbd7e;
+}
+.blueButton{
+    background: #2500f9;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 25px!important;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin: 10px 0;
+}
+/* Header */
+
+header{
+    background-image: url("../images/headerbg.png");
+    background-repeat: repeat-x;
+    background-position: bottom right;
+    /* height: 1000px; */
+    background-color: #fdfdfe;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-item a{
+    padding: 0 22px;
+}
+.nav-item .blueButton{
+    margin-left: 30px;
+    margin: 30px 0 30px 30px;
+    display: block;
+}
+
+#headerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container{
+    max-width: 1140px;
+}
+#headerContent div{
+    padding: 0 2%;
+}
+#headerContent p{
+    margin: 20px 0;
+}
+#headerAward{
+    position: relative;
+    background: #e2eaed;
+    padding: 3px 35px;
+    width: fit-content;
+    border-radius: 30px;
+    align-items: center;
+    font-weight: 600;
+}
+#headerAward::before{
+    position: absolute;
+    content: url("../images/checkIcon.png");
+    width: 30px;
+    height: 30px;
+    top:0;
+    left: 0;
+    padding: 5px;
+    background-color: #feaa25;
+    border-radius: 50%;
+}
+#headerContent p:nth-child(2){
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 1.2em;
+}
+#headerContent p:last-child a:last-child{
+    color: #2500f9;
+}
+#headerContent p:last-child a{
+    margin-right: 20px;
+}
+/* Trusted by */
+.trusted-by .container{
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.trusted-by .container img{
+    margin: 25px;
+}
+
+/* feature */
+.features .container{
+    max-width: 920px;
+    display: flex;
+}
+.features .container div{
+    margin: 10px;
+}
+.features .container > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 850px;
+}
+.features .leftImg{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.features .itemList{
+    display: flex;
+    flex-direction: column;
+}
+.features .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features .item-img{
+    margin: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ffecef;
+}
+.features .item:nth-child(2) .item-img{
+    padding-bottom: 13px;
+    background: #f4f4ff;
+}
+.features .item:nth-child(3) .item-img{
+    padding-bottom: 11px;
+    background: #e4ffee;
+}
+.features .item h3{
+    color: #f7818d;
+}
+.features .item:nth-child(2) h3{
+    color: #2563ff;
+}
+.features .item:nth-child(3) h3{
+    color: #40975f;
+}
+/* smart-jackpots */
+.smart-jackpots .container{
+    max-width: 1100px;
+}
+.smart-jackpots .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smart-jackpots .top *{
+    margin: 60px;
+}
+.smart-jackpots .top h2{
+    background: url("../images/smart01.png") no-repeat top right;
+    margin-right: 0;
+    padding-right: 60px;
+}
+.smart-jackpots .container h2::after{
+    content: url("../images/smart01.png");
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.smart-jackpots .itemList{
+    display: flex;
+
+}
+.smart-jackpots .item{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+.smart-jackpots .item-img{
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ffecef;
+}
+.smart-jackpots .item:nth-child(2) .item-img{
+    background: #f4f4ff;
+}
+.smart-jackpots .item:nth-child(3) .item-img{
+    background: #e4ffee;
+}
+.smart-jackpots .item h3{
+    margin: 10px 0;
+    color: #f7818d;
+}
+.smart-jackpots .item:nth-child(2) h3{
+    color: #2563ff;
+}
+.smart-jackpots .item:nth-child(3) h3{
+    color: #40975f;
+}
+/* download */
+.download .container{
+    width: 85%;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+}
+.download img{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 60px;
+}
+.download::before{
+    background: url("../images/bgline.png") repeat-x left top;
+    content: "";
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+/* footer */
+footer{
+    background: #09142e;
+    text-align: center;
+    padding: 100px;
+}

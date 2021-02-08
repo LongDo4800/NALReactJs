@@ -1,0 +1,81 @@
+    .content-3{display: flex; justify-content: space-between;; padding-top: 100px;}
+    
+    .content-3_text{flex: 1.5;
+                    padding-top: 5%;
+                    padding-left: 50px;
+                    width: 50%;
+                }
+
+    .content-3_img{flex: 1;
+                    border-radius: 5px;
+                    padding-right: 50px;}
+
+    .content-3_text .mini
+    {display: flex; }
+    .content-3_text .mini img{margin-top: 30px;}
+
+    .content-3_text .mini .icon-mini{
+        margin-top: 20px;
+        display: grid;
+    }
+    .content-3_text .mini .text-mini {
+        display: grid;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+    .content-3_text h3{font-size: 2.5em; 
+    }
+    .content-3_text>p{color: darkgray; padding-top: 2%;}
+    .content-3_text .mini .text-mini :nth-child(1) :nth-child(1){
+        color: #f66767;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    .content-3_text .mini .text-mini :nth-child(2) :nth-child(1)
+    {
+        color: #2563ff;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 5%;
+        padding-top: 15px;
+    }
+    .content-3_text .mini .text-mini :nth-child(3) :nth-child(1)
+    {
+        color: #40975f;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-bottom: 5%;
+    }
+   
+.content-4{ text-decoration: none;}
+ .content-4 .text{display: flex; align-items: center;}           
+.content-4 .logo-main{display: flex;justify-content: space-around;
+                        padding-top: 8%}
+.content-4 .text .left{ border-right: thin solid black;
+                 font-size: 2.5em;
+                 width: 55%;
+                 padding-left: 120px;
+                 word-spacing: 4px;}
+.content-4 .right{width: 30%;
+                  font-weight: 100;
+                  padding-left: 30px;
+                 color: darkgray;}
+.content-4 .logo-main .icon-logo{
+    flex-basis: 30%;
+    margin-bottom: 100px;
+    margin-left: 8%;
+
+}
+.icon-logo p{
+     font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5%;}
+.logo-main :nth-child(1) :nth-child(2)
+{color: #f66767;
+   }
+.logo-main :nth-child(2) :nth-child(2)
+   {color: #2563ff;}
+.logo-main :nth-child(3) :nth-child(2)
+   { color: #40975f;}

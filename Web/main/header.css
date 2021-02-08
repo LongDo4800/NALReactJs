@@ -1,0 +1,104 @@
+*{margin: 0;
+padding: 0;
+font-family: 'Times New Roman', Times, serif;
+box-sizing: border-box;}
+
+body{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+header .lab{
+    line-height: 100px;
+}
+header .lab samp{color: #fcae61;}
+
+header nav {display: flex; align-items: center;}
+header nav ul{
+       line-height: 100px;
+        display: flex;
+        justify-content: space-between;
+
+}
+header nav ul a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+}
+header nav ul li {
+    list-style-type: none;
+    font-size: 20px;  
+}
+header nav button{
+    font-size: 1em;
+    margin-left: 18px;
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 45px;
+    border: none;
+}
+.container {background-image:url(/images/backtop.png);}             
+.content-1{display: flex; align-items: center;}
+.content-1_left{flex: 1.5;
+                    text-align: left;
+                padding-left: 50px;}
+.content-1_right{flex: 1;
+                    border-radius: 5px;
+                padding-right: 50px;}
+.font-1 , .font-2 , .font-3 , .content-1_left button, .content-1_left a
+{
+    margin-top: 10px;
+}
+.content-1_left .font-1{
+    font-size: 1.5em;
+    border-radius: 5px;
+    width: 55%;
+    background-color: bisque;
+}
+.font-1 .fas {color: chocolate}
+.content-1_left .font-2{
+    font-size: 4em;
+    color: midnightblue;
+    font-weight: 500;
+
+}
+.content-1_left .font-3{
+    font-size: 1.5em;
+    color: darkgrey;
+}
+.content-1_left button{
+    width: 150px;
+    height: 50px;
+    background-color: navy;
+    color: oldlace;
+    border-radius: 45px;
+    outline: none;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+}
+.content-1_left a{
+    text-decoration: none;
+    padding-left: 60px;
+    font-size: 1.2em;
+}
+
+.content-2{
+    text-align: center;
+}
+.content-2 .font-center{
+    margin-bottom: 10px;
+    color: violet;
+    font-size: 1.2em;
+
+}
+.content-2 .logo{
+   display: flex;
+   justify-content: space-between;
+}

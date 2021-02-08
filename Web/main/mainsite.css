@@ -1,0 +1,93 @@
+.content-5{display: flex; align-items: center;}
+.content-5_text{flex: 1.5;
+    text-align: left;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.content-5_img{flex: 1;
+    border-radius: 5px;
+    padding-right: 50px;}
+.content-5_text h3{font-size: 2.5em ; word-spacing: 4px;}
+.content-5_text>p{color: darkgray; padding-top: 2%;}
+.content-5_text button{
+    font-size: 1em;
+    margin-left: 18px;
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 45px;
+    border: none;
+   margin-top: 5%;
+}
+.content-6   {}
+.content-6 .text-should{ padding-bottom: 100px;padding-top: 10%;text-align: center;}
+.content-6 .text-should h3{font-size: 2.5em; width: 35%;
+                margin: 0 auto;}
+.content-6 .text-should p {font-size: 1.2em;
+                color: gray;
+                width: 50%;
+                margin: 0 auto;
+               }
+.content-6 .icon-should_top{display: flex; text-align: center;}
+.logo-should{width: 20%;margin-left: 10%;font-size: 1.1em;}
+.content-6 .icon-should_bottom{display: flex; text-align: center; font-size: 1.1em;}
+.logo-should p
+{font-size: 1.5em;
+ font-weight: bold;}
+
+ .content-7{display: flex;align-items: center;}
+ .text-a{flex: 1.2;
+    text-align: left;
+    padding-left: 50px;
+    width: 50%;}
+.img-b{flex: 1;
+    border-radius: 5px;
+    padding-right: 50px;}
+.text-a_1{margin-bottom: 5%;}
+ .content-7 .text-a h3{font-size: 2em;width: 50%;}
+ .content-7 .text-a_2{ text-align: left; font-size: 1.1em;}
+ .logo-should_1{width:40%;font-size: 1.1em;}
+ .logo-should_1>p{font-weight: bold;}
+ .logo-should_1>div{font-size: 0.9em;color: gray;}
+.text-a_2-a,.text-a_2-b{display: flex; justify-content: space-between;}
+.text-a button{
+    font-size: 1em;
+    margin-left: 18px;
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 45px;
+    border: none;
+   margin-top: 5%;}
+
+.awesome{align-items: center;}
+.awesome-text {padding-bottom: 10px;text-align: center;}
+.awesome-text h3{font-size: 2em;width: 40%;margin: 0 auto;}
+.awesome-text p {color: gray; font-size: 0.9em; width: 50%;margin: 0 auto;}
+.awesome-button{border-radius: 45px;
+                border:1px solid grey;
+                width: 260px;
+                height: 50px;
+                margin: 0 auto;
+                }
+.awesome-button button:nth-child(1){
+    font-size: 1em;
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 45px;
+    border: none;
+   }
+.awesome-button button:nth-child(2)
+{   
+    font-size: 1em;
+    width: 100px;
+    height: 50px;
+    color:black;
+    border-radius: 45px;
+    border: none;
+}

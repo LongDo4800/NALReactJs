@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    justify-content: space-between;
+    height: 100px;
+    display: flex;
+    background-color: #fdfdfe;
+    position:sticky;
+    top: -20px;
+}
+
+header a{
+    text-decoration: none;
+}
+header .applab{
+    line-height:100px;
+    color: #242f51;
+    margin-left: 50px;
+    padding:  0 20px;
+    font-size: 2.7em;
+    font-weight: 790;
+    
+}
+
+header .applab samp{
+    color: #fcae61;
+}
+header nav {
+    display: flex;
+    line-height: 100px;
+    /* align-items: center; */
+    margin-right: 30px;
+    
+}
+header nav button{
+    margin: auto;
+}
+
+header nav ul {   display: flex;
+}
+nav ul a{
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 0 10px;
+    
+}
+nav ul a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+    color: #242f51;
+}

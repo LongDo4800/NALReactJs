@@ -1,0 +1,47 @@
+footer{
+    background-color: #09142e;
+    text-align: center;
+    padding:  100px ;
+}
+footer a{
+    text-decoration: none;
+
+}
+footer .applab{
+    color: #fff;
+    margin-left: 50px;
+    padding:  0 20px;
+    font-size: 2.7em;
+    font-weight: 790;
+    
+}
+
+footer .applab samp{
+    color: #fcae61;
+}
+footer nav ul{
+    display: flex;
+    justify-content: center;
+}
+footer nav a{
+    text-decoration: none;  
+    margin: 40px 10px;
+
+}
+footer nav ul li{
+    list-style-type: none;
+    color: #fff;
+
+}
+footer .logo i{
+    font-size: 2em;
+    color: #273043;
+    margin: 40px 10px;
+}
+footer .logo i:hover{
+    color: #fff;
+}
+footer .text{
+    color: #505461;
+
+}

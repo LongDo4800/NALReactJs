@@ -1,0 +1,15 @@
+
+
+.Download .content-text .text-sub{
+    color: #616368;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 40px 0 ;
+}
+.Download .content-text .img {
+    display: flex;
+
+}
+.Download .content-text .img  a{
+    margin: 0 50px 0 0;
+}

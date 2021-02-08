@@ -1,0 +1,37 @@
+.Why-you-header h3{
+    width: 40%;
+    margin: 50px auto 30px auto;
+    
+}
+.Why-you-header div{
+    
+    width: 43%;
+    margin: 0 auto;
+    color: #616368;
+    font-weight: 300;
+    font-size: 1em;
+}
+.Why-you-item .item-top{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.Why-you-item .item-bottom{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Why-you-item  .item{
+    flex-basis: 20%;
+    text-align: center;
+}
+.Why-you-item  .item p{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 40px 0;
+}
+.Why-you-item  .item div{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1.1em;
+}

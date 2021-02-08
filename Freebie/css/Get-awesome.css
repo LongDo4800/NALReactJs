@@ -1,0 +1,110 @@
+.Get-awesome{
+    margin-top: 80px;
+}
+.Get-awesome .Get-awesome-top h3{
+    width: 50%;
+    margin: 0 auto;
+}
+.Get-awesome .Get-awesome-top .sub{
+    width: 48%;
+    margin: 40px auto;
+}
+.package{
+    border: #ccc solid 2px;
+    display: flex;
+    width: 18%;
+    margin: 0 auto;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.Annually,
+.Monthly{
+    height: 100%;
+    flex: 1;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+.active{
+    background-color: #2563ff;
+    color: #fff;
+}
+.package-rigis{
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+    margin:  0 auto;
+}
+.package-rigis p{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1em;
+
+}
+.package-rigis .month{
+    border-left: none ;
+    /* border-right: none ; */
+    border: #ebebeb solid 2px;
+    margin-top: 30px;
+    background-origin: border-box;
+    border-radius: 10px;
+    border-top: none ;
+    
+}
+.package-rigis .month .moth-top{
+    background-color: #f6f8fa;
+    margin-bottom: 30px;
+    background-origin: border-box;
+    padding: 20px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 100%;
+    margin-right: 2px;
+
+}
+.package-rigis .month .moth-top  div{
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.package-rigis .month .moth-top  p{
+    font-size: 1.1em;
+    margin-top: 6px;
+    color: #616368;
+    margin-bottom: 10px;
+
+}
+
+.package-rigis p samp{
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #242f51;
+}
+.month .month-bottom div{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 15px;
+    
+}
+.month .month-bottom a{
+    text-decoration: none;
+    color: #2563ff;
+    font-weight: 600;
+}
+.month .month-bottom button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2500f9;
+    color: #fff;
+    border: 0;
+    outline: none;
+    
+    font-weight: 600;
+}

@@ -1,0 +1,50 @@
+.Features .content-text #text-sub {
+    color: #616368;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+.Features .content-text .text-item{
+    
+    display: flex;
+}
+
+.Features .text-item .icon-item img{
+    margin-top: 40px;
+}
+
+.Features .text-item .item-sub{
+   
+    display: table-row;
+    font-size: 1.1em;
+}
+
+.Features .text-item .item-sub div{
+    margin-top: 20px;
+    line-height: 1.5em;
+    color: #616368;
+    
+
+}
+.Features .text-item .item-sub  :nth-child(1) :nth-child(1) {
+    color: #f55767;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.Features .text-item .item-sub  :nth-child(2) :nth-child(1) {
+    color: #2563ff;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.Features .text-item .item-sub  :nth-child(3) :nth-child(1) {
+    margin-bottom: 10px;
+    color: #40975f;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 30px;
+
+}

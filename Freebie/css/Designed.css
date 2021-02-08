@@ -1,0 +1,17 @@
+.Designed .content-picture{
+    margin-left: 50px;
+}
+.Designed .content-text h3{
+    width: 70%;
+
+}
+.Designed .content-text p{
+    width: 65%;
+    color: #616368;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-bottom: 50px;
+    line-height: 2em;
+    margin-top: 50px;
+    
+}

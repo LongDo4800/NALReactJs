@@ -1,0 +1,60 @@
+.container{
+    background-color: #fff;    
+}
+.Best-app{
+    display: flex; 
+    align-items: center;
+    background-color: #fdfdfe;
+    background-image: url(/img/Vector\ Smart\ Object3.png);
+}
+
+
+
+.container .Best-app-text{
+    flex: 1.2;
+    text-align: left;
+    padding-left: 100px;
+     
+}
+
+.Editiors , .font, .font-sub,.Best-app-text button, .Best-app-text a
+
+{
+    margin-top: 20px;
+}
+
+.content-text .Editiors{
+    font-size: 1.5em;
+    background-color: #e2eaed;
+    border-radius: 10px;
+    width: 70%;
+
+}
+.Editiors .fas{
+    color: #fcae61;
+}
+.content-text .font{
+    font-size: 300%;
+    font-weight: 600;
+    font-weight: bold;
+
+}
+.content-text .font-sub{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+
+
+.content-text a{
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 18px;
+}
+
+.container .Best-app-picture{
+    flex: 1;
+    border-radius: 10px;
+    padding-right: 100px;
+}

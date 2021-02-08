@@ -1,0 +1,45 @@
+.Frequently .sub h3{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.Frequently .sub{
+    color: #616368;
+    font-weight: 300;
+    width: 42%;
+    margin: 40px auto;
+    line-height: 1.5em;
+}
+.Frequently .questionall{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+.Frequently .question{
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+    background-origin: border-box;
+    background-color: #f5f7fa;
+    
+
+}
+.Frequently .question .title{
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+.Frequently .question .reply{
+    margin-top: 20px;
+    color: #616368;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: none;
+    /* margin-bottom: 30px; */
+
+}
+.Frequently .question .reply :hover{
+    display: block;
+}

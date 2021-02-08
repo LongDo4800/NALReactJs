@@ -1,0 +1,50 @@
+.Smart-jackpot{
+    display: flex;
+    align-items: center;
+}
+.Smart-content{
+    width: 50%;
+    padding-left: 150px;
+    font-size: 1.2em;
+    word-spacing: 3px;
+    border-right:#ccc solid 2px ;
+}
+.Smart-content-sub{
+    width: 30%;
+    color: #616368;
+    font-weight: 300;
+    font-size: 1.1em;
+    padding-left:30px ;
+
+}
+
+.jackpot .item{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.jackpot .item .item-mini{
+    flex-basis: 23%;
+    margin-bottom: 100px;
+}
+.jackpot .item .item-mini p{
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: bold;
+}
+.item :nth-child(1) :nth-child(2){
+    color: #f55767;
+}
+.item :nth-child(2) :nth-child(2){
+    color: #2563ff;
+    
+}
+.item :nth-child(3) :nth-child(2){
+    color: #40975f;
+
+}
+.jackpot .item .item-mini div{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1.1em;
+}

@@ -1,0 +1,66 @@
+.Meet-Client .content-text{
+    margin-left: 5px;
+}
+
+.Meet-Client .content-text div{
+    margin: 20px 0;
+    
+}
+.Meet-Client .content-text i{
+    color: #ffcc00;
+    font-size: 1.2em;
+}
+.Meet-Client .content-text .txt{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #242f51;
+
+}
+.Meet-Client .content-text .txt-sub{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1em;
+    
+}
+.Meet-Client .content-text .nember{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Meet-Client .content-text .nember .nember-info{
+    display: flex;
+    color: #242f51;
+
+}
+.Meet-Client .content-text .nember .nember-info .name{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.Meet-Client .content-text .nember .nember-info .positon{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1em;
+}
+.Meet-Client .content-text .nember .nember-comeback{
+
+margin: auto;
+margin-right: 0;
+text-align: center;
+}
+.Meet-Client .content-text .nember .nember-comeback i{
+    border: #eff3f8 solid 1px;
+    line-height: 39px;
+    margin: auto;
+    color: #eff3f8;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+.Meet-Client .content-text .nember .nember-comeback i:hover{
+    background-color: #eff3f8;
+    color: #2500f9;
+
+
+}

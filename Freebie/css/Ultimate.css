@@ -1,0 +1,34 @@
+.Ultimate .header{
+    width: 58%;
+
+}
+.Ultimate .header div{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+.Ultimate .item-icon .item-top,
+.Ultimate .item-icon .item-bottom{
+    margin-top:  50px;
+    margin-right:  40px;
+    display: flex;
+    justify-content: space-between;
+}
+.Ultimate .item-icon .item {
+    flex-basis: 43%;
+}
+.Ultimate .item-icon .item p{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 30px 0;
+}
+.Ultimate .item-icon .item div{
+    color: #616368;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+.Ultimate button{
+    margin-top: 50px;
+}

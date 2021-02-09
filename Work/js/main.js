@@ -12,6 +12,19 @@ document.addEventListener('DOMContentLoaded', function(event) {
         }
     })
 
+    
+    window.onscroll = function() {followingNav()};
+
+    function followingNav() {
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        let nav = document.querySelector(".navbar");
+        nav.classList.add("follow")
+    } else {
+        let nav = document.querySelector(".navbar");
+        nav.classList.remove("follow")
+    }
+    }
+
     // Accordion
     let acc = document.querySelectorAll(".faq-item");
     
@@ -35,6 +48,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
     let items = sel.querySelectorAll("div");
     items.forEach(element => {
         element.addEventListener("click", function(){
+            items.forEach(element => {
+                element.classList.toggle("blueButton")
+            });
         })
     });
 

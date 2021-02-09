@@ -34,6 +34,21 @@ h2{
     top:0;
     right: 0;
 }
+.follow{
+    position: fixed;
+    top: 0;
+    background: #fdfdfe;
+    width: 100%;
+    z-index: 99;
+    height: 105px;
+    box-shadow: 3px 3px 8px #888888;
+}
+@media (max-width: 992px) {
+    .follow{
+        height: 60px;
+        padding-top: 5px;
+    }
+}
 
 @media (max-width: 375px) {
     body{

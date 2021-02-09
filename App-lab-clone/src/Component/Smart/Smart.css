@@ -23,10 +23,25 @@ article .info .details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 769px) {
+  article .info .details {
+    width: 80%;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 769px) and (max-width: 426px) {
+  article .info .details {
+    width: 100%;
+  }
 }
 
 article .info .details h1 {
@@ -35,6 +50,12 @@ article .info .details h1 {
   font-size: 42px;
   width: 90%;
   margin-right: 200px;
+}
+
+@media screen and (max-width: 769px) {
+  article .info .details h1 {
+    margin: 20px 0;
+  }
 }
 
 article .info .details h1::before {
@@ -46,6 +67,12 @@ article .info .details h1::before {
   right: 50%;
   top: 10px;
   margin-left: 100px;
+}
+
+@media screen and (max-width: 769px) {
+  article .info .details h1::before {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1330px) {
@@ -66,8 +93,20 @@ article .info .details h1::before {
   }
 }
 
+@media screen and (max-width: 1330px) and (max-width: 769px) {
+  article .info .details p {
+    margin: 0;
+  }
+}
+
 article .info .container {
   margin: 100px auto;
+}
+
+@media screen and (max-width: 769px) {
+  article .info .container {
+    margin: 30px 0;
+  }
 }
 
 article .info .container .items {
@@ -86,7 +125,24 @@ article .info .container .items .items__content {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 25%;
+}
+
+@media screen and (max-width: 769px) {
+  article .info .container .items .items__content {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 769px) and (max-width: 426px) {
+  article .info .container .items .items__content {
+    width: 90%;
+    margin: 20px auto;
+  }
 }
 
 article .info .container .items .items__content .img {

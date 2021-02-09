@@ -44,8 +44,6 @@ function Why() {
                             <p>Get your blood tests delivered at home collect a sample from the news your blood tests</p>
                         </div>
                     </div>
-                </div>
-                <div className="items">
                     <div className="items__content">
                         <div className="img">
                             <img src={tool} alt="err" />

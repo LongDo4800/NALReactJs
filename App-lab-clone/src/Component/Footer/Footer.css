@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+}
+
+footer .contact {
+  text-align: center;
+  width: 100%;
+  background-color: #09142e;
+  z-index: -1;
+  margin-top: -68px;
+}
+
+footer .contact .logo {
+  padding-top: 100px;
+  font-family: poppinsB;
+  text-align: center;
+  font-size: 34px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+footer .contact .logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .contact .logo a strong {
+  color: #fcae61;
+}
+
+footer .contact .control ul {
+  list-style: none;
+}
+
+footer .contact .control li {
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+footer .contact .control li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .contact .social {
+  margin-bottom: 60px;
+  color: rgba(195, 195, 195, 0.267);
+}
+
+footer .contact .social i {
+  margin: 20px 10px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+footer .contact .social i:nth-child(3) {
+  color: #fff;
+}
+
+footer .contact .social i:nth-child(3):hover {
+  color: #f5591c;
+}
+
+footer .contact .social i:nth-child(1):hover {
+  color: #1c1cf5;
+}
+
+footer .contact .social i:nth-child(2):hover {
+  color: #1c9ef5;
+}
+
+footer .contact .social i:nth-child(4):hover {
+  color: white;
+}
+
+footer .contact .copy {
+  padding-bottom: 100px;
+  color: rgba(187, 187, 187, 0.63);
+  font-size: 14px;
+}
+/*# sourceMappingURL=Footer.css.map */

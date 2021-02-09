@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .download{
+        width: 35%;
+        margin-left: 100px;
+        @media screen and (max-width : 1330px){
+            width: 80%;
+            @media screen and (max-width: 426px) {
+                width: 90%;
+                margin: auto;
+            }
+        }
+        h1{
+            font-family: poppinsSB;
+            font-weight: 600;
+            font-size: 50px;
+        }
+        p{
+            margin: 20px 0 40px;
+        }
+        .platform{
+            display: flex;
+            cursor: pointer;
+            flex-wrap: wrap;
+            >img{
+                margin-right: 30px;
+            }
+        }
+    }
+    .image{
+        object-fit: contain;
+    }
+}

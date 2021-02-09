@@ -35,8 +35,32 @@ section .sponsor .logo {
      object-fit: contain;
 }
 
+@media screen and (max-width: 1330px) {
+  section .sponsor .logo {
+    margin: auto 20px;
+  }
+}
+
+@media screen and (max-width: 1330px) and (max-width: 769px) {
+  section .sponsor .logo {
+    margin: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 1330px) and (max-width: 769px) and (max-width: 426px) {
+  section .sponsor .logo {
+    margin: 20px 20px;
+  }
+}
+
 section .sponsor .logo img {
   width: 100%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1330px) {
+  section .sponsor .logo img {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=Sponsor.css.map */

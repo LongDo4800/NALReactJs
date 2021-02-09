@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form .download {
+  width: 35%;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 1330px) {
+  .form .download {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1330px) and (max-width: 426px) {
+  .form .download {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.form .download h1 {
+  font-family: poppinsSB;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.form .download p {
+  margin: 20px 0 40px;
+}
+
+.form .download .platform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form .download .platform > img {
+  margin-right: 30px;
+}
+
+.form .image {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=Download.css.map */

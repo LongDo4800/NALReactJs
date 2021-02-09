@@ -3,12 +3,21 @@
   margin: 0;
 }
 
-header {
+.navbar {
+  background-color: #fff;
   width: 100%;
-  margin: 30px auto;
+  height: 58px;
+  -webkit-box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.4);
+          box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.4);
+  position: -webkit-sticky;
+  position: sticky;
+  padding-top: 5px;
+  top: 0;
+  z-index: 20;
+  display: none;
 }
 
-header nav {
+.navbar .bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,34 +29,34 @@ header nav {
 }
 
 @media screen and (max-width: 1330px) {
-  header nav {
+  .navbar .bar {
     width: 95%;
   }
 }
 
 @media screen and (max-width: 1330px) and (max-width: 769px) {
-  header nav {
+  .navbar .bar {
     width: 85%;
   }
 }
 
-header nav .logo {
+.navbar .bar .logo {
   font-family: poppinsB;
   text-align: center;
   font-size: 34px;
   cursor: pointer;
 }
 
-header nav .logo a {
+.navbar .bar .logo a {
   color: black;
   text-decoration: none;
 }
 
-header nav .logo a strong {
+.navbar .bar .logo a strong {
   color: #fcae61;
 }
 
-header nav .controls {
+.navbar .bar .controller {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,16 +66,16 @@ header nav .controls {
 }
 
 @media screen and (max-width: 769px) {
-  header nav .controls {
+  .navbar .bar .controller {
     display: none;
   }
 }
 
-header nav .controls ul {
+.navbar .bar .controller ul {
   list-style: none;
 }
 
-header nav .controls ul li {
+.navbar .bar .controller ul li {
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
@@ -74,22 +83,22 @@ header nav .controls ul li {
   cursor: pointer;
 }
 
-header nav .controls ul li:hover {
+.navbar .bar .controller ul li:hover {
   background-color: rgba(235, 235, 235, 0.411);
   border-radius: 10%;
 }
 
-header nav .controls ul li a {
+.navbar .bar .controller ul li a {
   text-decoration: none;
   color: black;
 }
 
-header nav .controls .tryit {
+.navbar .bar .controller .tryit {
   margin-left: 20px;
   cursor: pointer;
-  width: 180px;
-  height: 60px;
-  line-height: 55px;
+  width: 160px;
+  height: 50px;
+  line-height: 45px;
   font-size: 16px;
   background-color: #2034e6;
   border-top-right-radius: 50px;
@@ -101,7 +110,7 @@ header nav .controls .tryit {
 }
 
 @media screen and (max-width: 1330px) {
-  header nav .controls .tryit {
+  .navbar .bar .controller .tryit {
     width: 120px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -110,28 +119,28 @@ header nav .controls .tryit {
   }
 }
 
-header nav .controls .tryit:hover {
+.navbar .bar .controller .tryit:hover {
   background-color: #2034e6e1;
   color: #f97350;
 }
 
-header nav .controls .tryit a {
+.navbar .bar .controller .tryit a {
   text-decoration: none;
   color: #ffffff;
 }
 
-header nav .icons {
+.navbar .bar .icons {
   display: none;
   font-size: 30px;
 }
 
 @media screen and (max-width: 769px) {
-  header nav .icons {
+  .navbar .bar .icons {
     display: block;
   }
 }
 
-header nav .menu {
+.navbar .bar .menu {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -142,7 +151,7 @@ header nav .menu {
   visibility: hidden;
 }
 
-header nav .menu .menu__mobile {
+.navbar .bar .menu .menu__mobile {
   position: absolute;
   top: 0;
   opacity: 1;
@@ -158,29 +167,29 @@ header nav .menu .menu__mobile {
   font-size: 20px;
 }
 
-header nav .menu .menu__mobile p {
+.navbar .bar .menu .menu__mobile p {
   margin: 20px 20px;
   background-color: rgba(226, 226, 226, 0.315);
 }
 
-header nav .menu .menu__mobile p:hover:active {
+.navbar .bar .menu .menu__mobile p:hover:active {
   background-color: rgba(18, 18, 18, 0.36);
 }
 
-header nav .menu .menu__mobile p svg {
+.navbar .bar .menu .menu__mobile p svg {
   position: relative;
   top: 3px;
   font-size: 20px;
 }
 
-header nav .menu .menu__mobile p a {
+.navbar .bar .menu .menu__mobile p a {
   width: 100%;
   text-decoration: none;
   color: #000;
   font-weight: 700;
 }
 
-header nav .menu .menu__mobile p:nth-last-child(1) {
+.navbar .bar .menu .menu__mobile p:nth-last-child(1) {
   background-color: #2034e6;
   padding: 10px 0;
   border-top-right-radius: 30px;
@@ -189,14 +198,14 @@ header nav .menu .menu__mobile p:nth-last-child(1) {
   border-bottom-left-radius: 30px;
 }
 
-header nav .menu .menu__mobile-active {
+.navbar .bar .menu .menu__mobile-active {
   opacity: 1;
   right: 0;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-header nav .menu-active {
+.navbar .bar .menu-active {
   display: block;
   opacity: 1;
   visibility: visible;
@@ -207,4 +216,8 @@ header nav .menu-active {
           backdrop-filter: blur(4px);
   z-index: 30;
 }
-/*# sourceMappingURL=Header.css.map */
+
+.active {
+  display: block;
+}
+/*# sourceMappingURL=Narbar.css.map */

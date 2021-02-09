@@ -1,1 +1,289 @@
-/* No CSS *//*# sourceMappingURL=Monthly.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.monthly {
+  width: 100%;
+  margin: 200px 0 100px 0;
+}
+
+.monthly::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: rgba(223, 223, 223, 0.308);
+  display: block;
+  margin-top: 100px;
+}
+
+.monthly .boxs {
+  width: 45%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1330px) {
+  .monthly .boxs {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1330px) and (max-width: 769px) {
+  .monthly .boxs {
+    width: 80%;
+  }
+}
+
+.monthly .boxs .title {
+  text-align: center;
+}
+
+.monthly .boxs .title h1 {
+  font-size: 48px;
+  font-family: poppinsSB;
+}
+
+@media screen and (max-width: 426px) {
+  .monthly .boxs .title h1 {
+    font-size: 38px;
+  }
+}
+
+.monthly .boxs .title p {
+  font-size: 18px;
+  margin: 30px 0 50px;
+}
+
+.monthly .boxs .select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid rgba(224, 224, 224, 0.445);
+  width: 300px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 426px) {
+  .monthly .boxs .select {
+    width: 70%;
+  }
+}
+
+.monthly .boxs .select .month {
+  cursor: pointer;
+  width: 160px;
+  height: 55px;
+  line-height: 50px;
+  font-size: 16px;
+  background-color: #fff;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #626262;
+}
+
+.monthly .boxs .select .annual {
+  cursor: pointer;
+  width: 160px;
+  height: 55px;
+  line-height: 50px;
+  font-size: 16px;
+  background-color: #fff;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #626262;
+}
+
+.monthly .boxs .select .active {
+  background-color: #2034e6e1;
+  color: #fff;
+}
+
+.monthly .boxs .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 18px;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 0 30px 0;
+}
+
+.monthly .boxs .card .free {
+  width: 45%;
+  -webkit-box-shadow: 5px 0px 15px 2px #88888859;
+          box-shadow: 5px 0px 15px 2px #88888859;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 2%;
+}
+
+@media screen and (max-width: 769px) {
+  .monthly .boxs .card .free {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 769px) and (max-width: 426px) {
+  .monthly .boxs .card .free {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+.monthly .boxs .card .free:hover {
+  -webkit-box-shadow: 5px 0px 15px 15px #88888859;
+          box-shadow: 5px 0px 15px 15px #88888859;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+.monthly .boxs .card .free .head {
+  padding: 30px 0 30px;
+  background-color: rgba(214, 214, 214, 0.185);
+}
+
+.monthly .boxs .card .free .head strong {
+  font-family: poppinsB;
+  font-size: 80px;
+  color: #000000;
+}
+
+.monthly .boxs .card .free .info p {
+  padding: 20px 0 20px;
+  cursor: pointer;
+}
+
+.monthly .boxs .card .free .info p:hover {
+  color: #000000;
+}
+
+.monthly .boxs .card .free .tryit {
+  margin: 20px auto;
+  cursor: pointer;
+  width: 200px;
+  height: 55px;
+  line-height: 50px;
+  font-size: 16px;
+  background-color: #2034e6;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.monthly .boxs .card .free .tryit:hover {
+  background-color: #2034e6e1;
+  color: #f97350;
+}
+
+.monthly .boxs .card .free .tryit a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.monthly .boxs .card .pro {
+  width: 45%;
+  -webkit-box-shadow: 5px 0px 15px 2px #88888859;
+          box-shadow: 5px 0px 15px 2px #88888859;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 2%;
+}
+
+@media screen and (max-width: 769px) {
+  .monthly .boxs .card .pro {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 769px) and (max-width: 426px) {
+  .monthly .boxs .card .pro {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+.monthly .boxs .card .pro:hover {
+  -webkit-box-shadow: 5px 0px 15px 15px #88888859;
+          box-shadow: 5px 0px 15px 15px #88888859;
+  margin-top: -10px;
+  margin-right: -20px;
+}
+
+.monthly .boxs .card .pro .head {
+  padding: 30px 0 30px;
+  background-color: rgba(214, 214, 214, 0.185);
+}
+
+.monthly .boxs .card .pro .head strong {
+  font-family: poppinsB;
+  font-size: 80px;
+  color: #000000;
+}
+
+.monthly .boxs .card .pro .info p {
+  padding: 20px 0 20px;
+  cursor: pointer;
+}
+
+.monthly .boxs .card .pro .info p:hover {
+  color: #000000;
+}
+
+.monthly .boxs .card .pro .tryit {
+  margin: 20px auto;
+  cursor: pointer;
+  width: 200px;
+  height: 55px;
+  line-height: 50px;
+  font-size: 16px;
+  background-color: #2034e6;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.monthly .boxs .card .pro .tryit:hover {
+  background-color: #2034e6e1;
+  color: #f97350;
+}
+
+.monthly .boxs .card .pro .tryit a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.monthly .boxs .card .pro .trail {
+  margin-bottom: 30px;
+}
+
+.monthly .boxs .card .pro .trail span {
+  color: #6202e0;
+  cursor: pointer;
+}
+
+.monthly .boxs .card .pro .trail span:hover {
+  color: #c82dc8;
+}
+/*# sourceMappingURL=Monthly.css.map */

@@ -5,31 +5,41 @@
 .container {
     width: 100%;
     margin: 150px 0 50px 0;
+    @media screen and (max-width: 426px) {
+        margin: 50px 0 50px;
+    }
     .apps {
-        width: 80%;
         margin: auto;
         display: flex;
-        flex-wrap: wrap;
-        @media screen and (max-width : 1662px){
-            width: 100%;
-            margin: auto;
-            .app__info{
-                @media screen and (max-width : 1330px){
-                    width: 600px;
-                }
-            }
-            @media screen and (max-width : 1330px){
-                .app__img{
-                    width: 500px;
-                }
-            }
-        }
+        justify-content: center;
+        flex-wrap: wrap-reverse;
         .app__img {
             object-fit: contain;
+            @media screen and (max-width : 1330px){
+                width: 50%;
+                @media screen and (max-width: 769px) {
+                    width: 80%;
+                    @media screen and (max-width: 426px) {
+                        width: 100%;
+                    }
+                }
+            }
         }
         .app__info {
-            width: 455px;
-            margin-left: 30px;
+            width: 22%;
+            margin-left: 100px;
+            @media screen and (max-width : 1330px){
+                width: 40%;
+                margin-left: 30px;
+                @media screen and (max-width: 769px) {
+                    width: 60%;
+                    margin: auto;
+                    @media screen and (max-width: 426px) {
+                        width: 80%;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
             h1 {
                 font-size: 38px;
                 font-family: poppinsSB;
@@ -40,11 +50,17 @@
             > p {
                 margin-bottom: 100px;
                 flex: 0 0 auto;
+                @media screen and (max-width : 1330px){
+                    margin-bottom: 0px;
+                }
             }
             .app__info__features {
                 display: flex;
                 margin-top: 60px;
                 flex: 0 0 auto;
+                @media screen and (max-width : 1330px){
+                    margin-top: 20px;
+                }
                 .app__info__features__detail {
                     margin-left: 40px;
                 }

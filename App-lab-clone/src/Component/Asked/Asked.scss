@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.boxed {
+    width: 100%;
+    margin-bottom: 200px;
+    .asked {
+        width: 50%;
+        margin: auto;
+        @media screen and (max-width: 1330px) {
+            width: 80%;
+            @media screen and (max-width: 426px) {
+                width: 90%;
+                margin: 20px auto;
+            }
+        }
+        .title {
+            text-align: center;
+            width: 60%;
+            margin: 50px auto;
+            @media screen and (max-width: 1330px) {
+                width: 80%;
+                @media screen and (max-width: 426px) {
+                    width: 90%;
+                    margin: 30px auto;
+                }
+            }
+            h1 {
+                font-size: 40px;
+                font-family: poppinsSB;
+                font-weight: 600;
+                margin: 20px 0;
+            }
+        }
+        .questions {
+            .how-to {
+                padding: 20px 50px 60px 50px;
+                background-color: rgb(240, 248, 255);
+                h2 {
+                    margin: 20px 0;
+                }
+            }
+            .how {
+                background-color: rgb(240, 248, 255);
+                padding: 10px 50px;
+                margin: 20px 0;
+                overflow: hidden;
+                height: 40px;
+                opacity: 1;
+                transition: all 0.5s ease;
+                cursor: pointer;
+                .caption {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    h2 {
+                        @media screen and (max-width: 769px) {
+                            font-size: 18px;
+                            @media screen and (max-width: 426px) {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .active {
+                height: 250px;
+                @media screen and (max-width: 769px) {
+                    height: 300px;
+                    @media screen and (max-width: 426px) {
+                        height: 500px;
+                    }
+                }
+            }
+        }
+    }
+}

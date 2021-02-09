@@ -1,17 +1,29 @@
 import React, { useState } from 'react'
-import './Header.css'
+import './Narbar.css'
 
-function Header() {
+function Navbar() {
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
+
+    const [navbar, setNavbar] = useState(false);
+
+    const changeNavbar = () => {
+        if (window.pageYOffset > 100) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeNavbar);
     return (
-        <header>
-            <nav>
+        <div className={navbar ? "navbar active" : "navbar"}>
+            <div className="bar">
                 <div className="logo">
                     <a href="/"><strong>App</strong>Lab</a>
                 </div>
-                <div className="controls">
+                <div className="controller">
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="feature">Key Feature</a></li>
@@ -33,12 +45,12 @@ function Header() {
                         <p><a href="/news">Pricing</a></p>
                         <p><a href="/hot">Testiminial</a></p>
                         <p><a href="/saleoff">FAQ</a></p>
-                        <p><a style={{color:'#fff'}} href="try">Try for free</a></p>
+                        <p><a style={{ color: '#fff' }} href="try">Try for free</a></p>
                     </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </div>
     )
 }
 
-export default Header
+export default Navbar

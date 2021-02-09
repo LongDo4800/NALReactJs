@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.boxed {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.boxed .asked {
+  width: 50%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1330px) {
+  .boxed .asked {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1330px) and (max-width: 426px) {
+  .boxed .asked {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+.boxed .asked .title {
+  text-align: center;
+  width: 60%;
+  margin: 50px auto;
+}
+
+@media screen and (max-width: 1330px) {
+  .boxed .asked .title {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1330px) and (max-width: 426px) {
+  .boxed .asked .title {
+    width: 90%;
+    margin: 30px auto;
+  }
+}
+
+.boxed .asked .title h1 {
+  font-size: 40px;
+  font-family: poppinsSB;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.boxed .asked .questions .how-to {
+  padding: 20px 50px 60px 50px;
+  background-color: aliceblue;
+}
+
+.boxed .asked .questions .how-to h2 {
+  margin: 20px 0;
+}
+
+.boxed .asked .questions .how {
+  background-color: aliceblue;
+  padding: 10px 50px;
+  margin: 20px 0;
+  overflow: hidden;
+  height: 40px;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.boxed .asked .questions .how .caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+  .boxed .asked .questions .how .caption h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 769px) and (max-width: 426px) {
+  .boxed .asked .questions .how .caption h2 {
+    font-size: 16px;
+  }
+}
+
+.boxed .asked .questions .active {
+  height: 250px;
+}
+
+@media screen and (max-width: 769px) {
+  .boxed .asked .questions .active {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 769px) and (max-width: 426px) {
+  .boxed .asked .questions .active {
+    height: 500px;
+  }
+}
+/*# sourceMappingURL=Asked.css.map */

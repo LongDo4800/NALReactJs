@@ -4,6 +4,7 @@ import dev from '../../images/content__develop.png'
 import plan from '../../images/content__plant2.png'
 import cloud from '../../images/content__cloud.png'
 import support from '../../images/content__suport2.png'
+import ulti from '../../images/ultimatecontent.png'
 
 function Ultimate() {
     return (
@@ -56,6 +57,9 @@ function Ultimate() {
                 <div className="tryit">
                     <a href="try">See all</a>
                 </div>
+            </div>
+            <div className="imgphone">
+                <img src={ulti} alt=""/>
             </div>
         </div>
     )

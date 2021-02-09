@@ -11,26 +11,39 @@ main {
     padding-bottom: 30px;
     width: 100%;
     .content {
-        width: 55%;
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         padding-top: 50px;
         flex-wrap: wrap;
-        @media screen and (max-width: 1330px) {
-            width: 80%;
-            margin: auto;
+        @media screen and (max-width: 769px) {
+            width: 90%;
+            @media screen and (max-width: 426px) {
+                padding: 0;
+                width: 95%;
+            }
         }
         .content__info {
             text-align: left;
-            flex: 0 0 auto;
-            width: 50%;
+            width: 30%;
+            margin-right: 100px;
+            @media screen and (max-width: 1330px) {
+                width: 50%;
+                @media screen and (max-width: 769px) {
+                    margin: auto;
+                    width: 75%;
+                    @media screen and (max-width: 426px) {
+                        width: 90%;
+                    }
+                }
+            }
             h3 {
+                width: 55%;
                 text-align: center;
-                width: 290px;
                 background-color: rgba(212, 212, 212, 0.39);
-                padding: 5px 40px 5px 55px;
+                padding: 5px 30px 5px 30px;
                 border-top-right-radius: 50px;
                 border-bottom-right-radius: 50px;
                 border-top-left-radius: 50px;
@@ -40,15 +53,36 @@ main {
                 background: cover;
                 background-size: contain;
                 background-repeat: no-repeat;
+                @media screen and (max-width: 1330px) {
+                    font-size: 16px;
+                    @media screen and (max-width: 769px) {
+                        width: 70%;
+                        @media screen and (max-width: 321px) {
+                            font-size: 12px;
+                        }
+                    }
+                }
             }
             h1 {
                 font-family: poppinsSB;
                 font-size: 60px;
                 font-weight: 600px;
+                @media screen and (max-width: 1330px) {
+                    font-size: 50px;
+                    @media screen and (max-width: 426px) {
+                        font-size: 46px;
+                        @media screen and (max-width: 321px) {
+                            font-size: 40px;
+                        }
+                    }
+                }
             }
             p {
                 font-size: 20px;
                 color: #626262;
+                @media screen and (max-width: 1330px) {
+                    font-size: 16px;
+                }
             }
             .container {
                 margin-top: 30px;
@@ -95,10 +129,15 @@ main {
                 border-top-left-radius: 60px;
                 border-bottom-left-radius: 60px;
                 width: 100%;
-                object-fit: cover;
             }
             @media screen and (max-width: 1330px) {
-                width: 300px;
+                width: 250px;
+                @media screen and (max-width: 769px) {
+                    width: 350px;
+                    @media screen and (max-width: 426px) {
+                        width: 270px;
+                    }
+                }
             }
         }
     }

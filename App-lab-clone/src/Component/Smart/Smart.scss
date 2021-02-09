@@ -13,14 +13,25 @@ article {
         .details {
             margin: auto;
             display: flex;
-            position: relative;
             align-items: center;
+            position: relative;
+            @media screen and (max-width: 769px) {
+                width: 80%;
+                text-align: center;
+                flex-wrap: wrap;
+                @media screen and (max-width: 426px) {
+                    width: 100%;
+                }
+            }
             h1 {
                 font-family: poppinsSB;
                 font-weight: 600;
                 font-size: 42px;
                 width: 90%;
                 margin-right: 200px;
+                @media screen and (max-width: 769px) {
+                    margin: 20px 0;
+                }
                 &::before {
                     content: "";
                     width: 2px;
@@ -30,25 +41,34 @@ article {
                     right: 50%;
                     top: 10px;
                     margin-left: 100px;
+                    @media screen and (max-width: 769px) {
+                        display: none;
+                    }
                 }
                 @media screen and (max-width: 1330px) {
                     font-size: 30px;
                     margin-right: 10px;
                     width: 500px;
-                    &::before{
+                    &::before {
                         height: 120px;
                     }
                 }
             }
-            @media screen and (max-width: 1330px) {
-                p{
+            p {
+                @media screen and (max-width: 1330px) {
                     width: 500px;
                     margin-left: 100px;
+                    @media screen and (max-width: 769px) {
+                        margin: 0;
+                    }
                 }
             }
         }
         .container {
             margin: 100px auto;
+            @media screen and (max-width: 769px) {
+                margin: 30px 0;
+            }
             .items {
                 display: flex;
                 justify-content: space-between;
@@ -56,7 +76,17 @@ article {
                 .items__content {
                     width: 300px;
                     flex: 0 0 auto;
+                    flex-wrap: wrap;
                     width: 25%;
+                    @media screen and (max-width: 769px) {
+                        width: 45%;
+                        margin: auto;
+                        text-align: center;
+                        @media screen and (max-width: 426px) {
+                            width: 90%;
+                            margin: 20px auto;
+                        }
+                    }
                     .img {
                         margin-bottom: 20px;
                     }

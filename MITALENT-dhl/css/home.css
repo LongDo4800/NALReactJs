@@ -1,0 +1,122 @@
+
+#header .container{
+    max-width: 1920px;
+    height: 1140px;
+    padding: 0;
+}
+
+#header .topRight{
+    width: 772px;
+    height: 723px;
+    background-color: #b4d3d3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+#header .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 55px;
+}
+#header .navbar .left{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: 800;
+}
+#header .navbar .left > *{
+    padding-right: 50px;
+}
+#header .iconMenu{
+    width: 20px;
+    height: 14px;
+    cursor: pointer;
+}
+#header .navbar .center{
+    width: 70%;
+    display: flex;
+}
+#header .navbar .center img{
+    margin: auto;
+}
+#header .navbar .right{
+    width: 15%;
+    display: flex;
+}
+#header .navbar .right img{
+    margin-left: auto;
+}
+#header .content{
+    margin-top: 150px;
+    display: flex;
+}
+#header .content .left{
+    width: 16.666667%;
+    height: 815px;
+    padding: 0 0 0 55px;
+    display: flex;
+    flex-direction: column;
+}
+#header .content .icon{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 35px;
+}
+#header .content .slide-num{
+    display: flex;
+    margin: auto;
+    margin-left: -50px;
+    align-items: center;
+    transform: rotate(-90deg);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    position: relative;
+}
+#header .content .slide-num .slash{
+    height: 1px;
+    width: 50px;
+    background-color: #000000;
+    margin-left: 50px;
+}
+#header .content .profile-btn{
+    margin-top: auto;
+    width: 100%;
+    height: 113px;
+    background-color: #b4d3d3;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 113px;
+}
+#header .content .center{
+    width: 58.333333%;
+    height: 815px;
+    background-color: #e2e8e8;
+    position: relative;
+}
+#header .content .right{
+    margin-top: auto;
+    width: 25%;
+    height: 362px;
+}
+#header .content .play-btn{
+    display: flex;
+    width: 112px;
+    height: 113px;
+    line-height: 113px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+#header .content .play-btn img{
+    margin: auto;
+}

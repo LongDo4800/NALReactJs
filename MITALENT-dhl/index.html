@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
     <title>Home Page</title>
 </head>
 <body>
-    <div id="header">
+    <header id="header">
         <div class="container">
             <div class="topRight"></div>
             <div class="navbar">
@@ -65,15 +66,186 @@
                     </div>
                 </div>
                 <div class="right">
-                    <div class="placholder">
-                        
-                    </div>
                     <div class="paging">
-
+                        <p>01</p>
+                        <p class="selected">02</p>
+                        <p>03</p>
+                        <p>04</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+    <section id="talent">
+        <div class="container">
+            <div class="navbar">
+                <div class="nav-item selected">AAA</div>
+                <div class="nav-item">INDIE</div>
+            </div>
+            <div class="content clients">
+            </div>
+            <div class="bottom">
+                <a href="">EXPLORE MORE</a>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="container">
+            <div class="head">
+                <h2>Latest News</h2>
+            </div>
+            <div class="newItem new1">
+                <div class="newImg">
+                    <img src="images/postKitty.png">
+                </div>
+                <div class="newContent">
+                    <h3>Kitty Letter and creator of The Oatmeal</h3>
+                    <p>8 March, 2020</p>
+                </div>
+            </div>
+            <div class="newItem new2">
+                <div class="newImg">
+                    <img src="images/postStardew.gif">
+                </div>
+                <div class="newContent">
+                    <h3>Stardew Valley’s big local co-op update has come to consoles</h3>
+                    <p>8 March, 2020</p>
+                </div>
+            </div>
+            <div class="newItem new3">
+                <div class="newImg">
+                    <img src="images/postCyber2077.png">
+                </div>
+                <div class="newContent">
+                    <h3>Cyberpunk 2077 studio’s hacked data has been sold</h3>
+                    <p>8 March, 2020</p>
+                </div>
+            </div>
+            <div class="new4">
+                <div class="newImg">
+                    <img src="images/postSwitch.png">
+                </div>
+                <div class="newContent">
+                    <h3>The Switch continues its bestselling streak, but the PS5 is making more money</h3>
+                    <p>8 March, 2020</p>
+                </div>
+            </div>
+            <div class="trend">
+                <div class="trendTag">TRENDING</div>
+                <div class="itemContent">
+                    <div class="info">
+                        <img src="images/iconPlay.png">
+                        <h3>Use Your Reset Button To Change Your Vibration</h3>
+                        <p>8 March, 2020</p>
+                    </div>
+                </div>
+                <div class="itemImg">
+                </div>
+            </div>
+            <div class="vidSld">
+                <div class="playAll">
+                    <div class="play-btn">
+                        <img src="images/iconPlay.png">
+                    </div>
+                    <h3>PLAY ALL</h3>
+                </div>
+                <div class="vid-gallery js-flickity">
+                    <div class="gallery-cell">
+                        <img src="images/postHollow.jpg">
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="itemInfo">
+                            <h3>IF FOUND...</h3>
+                            <p>DREAMFELL</p>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="itemInfo">
+                            <h3>IF FOUND...</h3>
+                            <p>DREAMFELL</p>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="itemInfo">
+                            <h3>IF FOUND...</h3>
+                            <p>DREAMFELL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSld">
+                <div class="img-gallery js-flickity">
+                    <div class="gallery-cell">
+                        <div class="itemImg">
+                            <img src="images/postLIf.png">
+                        </div>
+                        <div class="itemInfo">
+                            <h3>IF FOUND...</h3>
+                            <p>DREAMFELL</p>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="itemImg">
+                            <img src="images/postLAnimalC.png">
+                        </div>
+                        <div class="itemInfo">
+                            <h3>ANIMAL CROSSING: NEW HORIZONS</h3>
+                            <p>NINTENDO</p>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="itemImg">
+                            <img src="images/postLWarzone.png">
+                        </div>
+                        <div class="itemInfo">
+                            <h3>CALL OF DUTY: WARZONE</h3>
+                            <p>INFINITY WARD/ACTIVISION/RAVEN SOFTWARE</p>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="itemImg">
+                            <img src="images/postLSpritfarer.png">
+                        </div>
+                        <div class="itemInfo">
+                            <h3>SPRITFARER</h3>
+                            <p>THUNDER LOTUS GAMES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <img src="images/brand.png">
+                </div>
+                <p>SIGN UP OUR NEWSLETTER</p>
+                <img src="images/iconMail.png">
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <p>© 2018 MI Talent. Designed by Tranmautritam for Mass Impressions.</p>
+                </div>
+                <div class="icon">
+                    <img src="images/iconFacebook.png">
+                </div>
+                <div class="icon">
+                    <img src="images/iconInstagram.png">
+                </div>
+                <div class="icon">
+                    <img src="images/iconYoutube.png">
+                </div>
+                <div class="icon">
+                    <img src="images/iconTwitter.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- js here -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

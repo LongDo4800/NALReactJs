@@ -1,0 +1,240 @@
+
+#header .container{
+    max-width: 1940px;
+    height: 972px;
+    padding-left: 55px;
+    padding: 0;
+    position: relative;
+}
+
+#header .topRight{
+    width: 243px;
+    height: 453px;
+    background-color: #1a1a1d;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    z-index: 0;
+}
+#header .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 55px;
+}
+#header .navbar .left{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: 800;
+}
+#header .navbar .center{
+    width: 70%;
+    display: flex;
+    padding-left: 230px;
+}
+#header .navbar .center img{
+    margin: auto;
+}
+#header .navbar .right{
+    width: 15%;
+    display: flex;
+}
+#header .navbar .right img{
+    margin-left: auto;
+}
+#header .content{
+    width: 100%;
+    height: 972px;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+#header .content .left{
+    width: 50%;
+    height: 100%;
+    padding: 0 0 0 55px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#header .content .left .item-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+}
+#header .bg-holder{
+    width: 772px;
+    height: 972px;
+    background: #1a1a1d;
+    position: absolute;
+    z-index: 0;
+}
+#header .content .icons{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#header .content .icon{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 35px;
+}
+#header .profile-btn{
+    position: absolute;
+    bottom: 0;
+    right: 190px;
+    width: 532px;
+    height: 113px;
+    background-color: #b4d3d3;
+    text-align: center;
+    display: flex;
+}
+#header .profile-btn p{
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 113px;
+    color: #ffffff;
+    width: 422px;
+}
+#header .profile-btn .icon-user{
+    width: 113px;
+    height: 113px;
+    background-color: #ffffff;
+    display: flex;
+    margin-left: auto;
+}
+#header .icon-user img{
+    margin: auto;
+}
+#header .content .center{
+    max-width: 580px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#header .content .item-content{
+    width: 100%;
+    margin-top: 250px;
+}
+#header .item-content h3{
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+#header .item-content h3::first-letter{
+    float: left;
+    font-size: 7rem;
+    line-height: 1em;
+    padding-right: 15px;
+    font-weight: 300;
+}
+#header .items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#header .item{
+    width: 50%;
+    display: flex;
+    margin-bottom: 50px;
+}
+#header .item .item-content{
+    margin-top: 0;
+}
+#header .item-content address{
+    font-style: normal;
+    font-size: 1.6rem;
+    color: rgb(119,119,126);
+    line-height: 3em;
+}
+#header .item-img{
+    padding-right: 30px;
+    padding-top: 10px;
+}
+#header .info{
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    right: 220px;
+    max-width: 500px;
+    top: 25%;   
+}
+.info h2{
+    display: inline-block;
+    font-size: 10.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.1em;
+    position: relative;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+.info h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0.2em;
+    right: 260px;
+    display: block;
+    width: 80px;
+    height: 10px;
+    background-color: #ffffff;
+    z-index: 10;
+}
+/*footer*/
+#footer .container{
+    max-width: 1802px;
+    margin: auto;
+    margin-top: 160px;
+}
+#footer .top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+#footer .top .left{
+    margin-right: auto;
+}
+#footer .top p::before{
+    position: absolute;
+    top: -20px;
+    left: -46px;
+    display: block;
+    content: "";
+    width: 2px;
+    height: 44px;
+    background-color: #b4d3d3;
+}
+#footer .top p{
+    position: relative;
+    padding: 0 46px;
+}
+#footer .bottom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+#footer .bottom .left{
+    margin-right: auto;
+    color: rgb(119,119,126);
+    font-size: 1.5rem;
+}
+#footer .bottom .icon{
+    width: 16px;
+    height: 16px;
+    margin-left: 36px;
+}

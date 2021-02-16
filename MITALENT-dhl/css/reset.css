@@ -4,6 +4,8 @@
     border: 0;
     box-sizing: border-box;
     z-index: 1;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
 }
 html{
     scroll-behavior: smooth;

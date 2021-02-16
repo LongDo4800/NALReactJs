@@ -1,0 +1,168 @@
+{
+    "clients":
+    [
+        {
+            "name":"Hades",
+            "developer":"Supergiant Games",
+            "genre":"Indie",
+            "awards":[
+                "Best Indie",
+                "Best Action"
+            ],
+            "img":{
+                "square":"postLHades.png"
+            }
+        },
+        {
+            "name":"The Last Of Us Part II",
+            "developer":"Naughty Dog/Sie",
+            "genre":"AAA",
+            "awards":[
+                "Game Of The Year",
+                "Best Action/Adventure"
+            ],
+            "img":{
+                "square":"postLLOU2.png"
+            }
+        },
+        {
+            "name":"Animal Crossing: New Horizons",
+            "developer":"Nintendo",
+            "genre":"AAA",
+            "awards":[
+                "Best Family"
+            ],
+            "img":{
+                "square":"postLAnimalC.png"
+            }
+        },
+        {
+            "name":"Doom Eternal",
+            "developer":"Id Software/Bethesda",
+            "genre":"Indie",
+            "awards":[],
+            "img":{
+                "square":"postLDoom.png"
+            }
+        },
+        {
+            "name":"Half-life:Alyx",
+            "developer":"Valve",
+            "genre":"AAA",
+            "awards":[
+                "Best VR/AR"
+            ],
+            "img":{
+                "square":"postLAlyx.png"
+            }
+        },
+        {
+            "name":"Spritfarer",
+            "developer":"Thunder Lotus Games",
+            "genre":"Indie",
+            "awards":[],
+            "img":{
+                "square":"postLSpritfarer.png"
+            }
+        },
+        {
+            "name":"If Found...",
+            "developer":"Dreamfeel",
+            "genre":"Indie",
+            "awards":[],
+            "img":{
+                "square":"postLIf.png"
+            }
+        },
+        {
+            "name":"Call Of Duty:Warzone",
+            "developer":"Infinity Ward",
+            "genre":"AAA",
+            "awards":[],
+            "img":{
+                "square":"postLWarzone.png"
+            }
+        },
+        {
+            "name":"No Man's Sky",
+            "developer":"Hello Games",
+            "genre":"Indie",
+            "awards":[],
+            "img":{
+                "square":"postLNMSky.png"
+            }
+        },
+        {
+            "name":"Among Us",
+            "developer":"Innersloth",
+            "genre":"Indie",
+            "awards":[
+                "Best Mobile Game",
+                "Best Multiplayer"
+            ],
+            "img":{
+                "square":"postLAmongUs.png"
+            }
+        },
+        {
+            "name":"Final Fantasy VII Remake",
+            "developer":"Many",
+            "genre":"AAA",
+            "awards":[
+            ],
+            "img":{
+                "square":"postLFF7Re.png"
+            }
+        },
+        {
+            "name":"Ghost Of Tsushima",
+            "developer":"Sucker Punch",
+            "genre":"AAA",
+            "awards":[
+            ],
+            "img":{
+                "square":"postLTsushima.png"
+            }
+        },
+        {
+            "name":"Spelunky 2",
+            "developer":"Mossmouth",
+            "genre":"Indie",
+            "awards":[
+            ],
+            "img":{
+                "square":"postLSpelunky.png"
+            }
+        },
+        {
+            "name":"Pokemon Cafe Mix",
+            "developer":"Genius Sonority",
+            "genre":"AAA",
+            "awards":[
+            ],
+            "img":{
+                "square":"postLCafeMix.png"
+            }
+        },
+        {
+            "name":"Resident Evil 3",
+            "developer":"Capcom",
+            "genre":"AAA",
+            "awards":[
+            ],
+            "img":{
+                "square":"postLRE3.png"
+            }
+        },
+        {
+            "name":"Carrion",
+            "developer":"Phobia Game Studio",
+            "genre":"Indie",
+            "awards":[
+            ],
+            "img":{
+                "square":"postLCarrion.png"
+            }
+        }
+    ]
+}

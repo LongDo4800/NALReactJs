@@ -1,0 +1,194 @@
+{
+    "news":[
+        {
+            "title": "Microsoft starts new program",
+            "date": "Feb 16, 2021",
+            "featured": "false",
+            "trending": "true",
+            "writer":{
+                "name": "Kait Sanchez",
+                "img": "profileKait.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail":"microsoft.webp",
+                "inner":[
+                    "microsoft01.webp"
+                ]
+            }
+        },
+        {
+            "title": "Valve’s Dota 2 become anime",
+            "date": "Feb 16, 2021",
+            "featured": "true",
+            "trending": "false",
+            "writer":{
+                "name": "Jay Peters",
+                "img": "profileJay.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail":"valve.webp",
+                "inner":[
+                    "<iframe width='560' height='315' src='https://www.youtube.com/embed/JM-NqFX2jU8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe>"
+                ]
+            }
+        },
+        {
+            "title": "Pokémon’s League of Legends-style",
+            "date": "Feb 16, 2021",
+            "featured": "false",
+            "trending": "false",
+            "writer":{
+                "name": "Jay Peters",
+                "img": "profileJay.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail":"pokemon.webp",
+                "inner":[
+                    "pokemon01.webp"
+                ]
+            }
+        },
+        {
+            "title": "The PS5’s actual silicon processor",
+            "date": "Feb 16, 2021",
+            "featured": "false",
+            "trending": "false",
+            "writer":{
+                "name": "Kait Sanchez",
+                "img": "profileKait.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail":"silicon.webp",
+                "inner":[
+                    "silicon01.webp"
+                ]
+            }
+        },
+        {
+            "title": "Fortnite is hosting a film festival",
+            "date": "Feb 16, 2021",
+            "featured": "false",
+            "trending": "false",
+            "writer":{
+                "name": "Kait Sanchez",
+                "img": "profileKait.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail": "fortnite.jpg",
+                "inner":[
+                    "<iframe width='560' height='315' src='https://www.youtube.com/embed/Bw69QXyFmt4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe>"
+                ]
+            }
+        },
+        {
+            "title": "Splatoon 3 is coming to the Nintendo Switch in 2022",
+            "date": "Feb 17, 2021",
+            "featured": "false",
+            "trending": "false",
+            "writer":{
+                "name": "Jay Peters",
+                "img": "profileJay.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail":"splatoon3.webp",
+                "inner":[
+                    "<iframe width='560' height='315' src='https://www.youtube.com/embed/GUYDXVDLmns' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe>"
+                ]
+            }
+        },
+        {
+            "title": "Networks are struggling in Texas amid historic winter storms",
+            "date": "Feb 17, 2021",
+            "featured": "false",
+            "trending": "false",
+            "writer":{
+                "name": "Nick Statt",
+                "img": "profileNick.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail":"network.webp",
+                "inner":[
+                    "network01.webp"
+                ]
+            }
+        },
+        {
+            "title": "Google is testing a dark mode for desktop search",
+            "date": "Feb 10, 2021",
+            "featured": "false",
+            "trending": "false",
+            "writer":{
+                "name": "Nick Statt",
+                "img": "profileNick.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail":"google.webp",
+                "inner":[
+                    "google01.webp",
+                    "google02.webp"
+                ]
+            }
+        },
+        {
+            "title": "How to watch today’s Nintendo Direct live stream",
+            "date": "Feb 17, 2021",
+            "featured": "false",
+            "trending": "false",
+            "writer":{
+                "name": "Nick Statt",
+                "img": "profileNick.jpg"
+            },
+            "paragraph":[
+                "<p>Microsoft is expanding its accessibility efforts with a new program for evaluating Xbox and PC games. Today, its gaming accessibility team announced that developers can send their games to be evaluated for accessibility and tested by players with disabilities. The program was announced alongside updates to the Xbox Accessibility Guidelines that were released in early 2020.</p>",
+                "<p><q>Developers now have the option to send Microsoft their Xbox or PC title and have it analyzed and validated against the recommendations provided in the XAGs,</q> says an Xbox blog post published today. The Xbox Accessibility Guidelines include thorough explanations of inclusive design considerations for developers, and they are now updated to include clearer language, additional context, and implementation examples.</p><p>Game test reports will include feedback from players with disabilities, as well as links to information on inclusive design, relevant nonprofits, and accessibility experts. Any issues found during testing will be <q>noted with reproduction steps, screenshots, and other information to help the developer understand what aspect of a given experience may be challenging for certain gamers with disabilities,</q> says the post.</p>",
+                "<p>More companies have been focusing on game accessibility in recent years — including Microsoft with the Xbox Adaptive Controller — but there are still few high-profile examples besides The Last of Us Part II. A program like this could potentially lead to more games with a similarly wide variety of accessibility options. It’s also significant for players with disabilities to be able to provide insight, rather than being left unconsidered or designed for without their input.</p>"
+            ],
+            "img":{
+                "thumbnail":"google.webp",
+                "inner":[
+                    "<iframe width='560' height='315' src='https://www.youtube.com/embed/pQ-dE_5el5Q' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe>"
+                ]
+            }
+        }
+    ]
+}

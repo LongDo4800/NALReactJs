@@ -1,52 +1,67 @@
+// FUNCTION & SETTING
 $('.vid-gallery').flickity({
     // options
     cellAlign: 'left',
     contain: true
 });
 
-function isGenre(data){
-    return data.genre === fgenre;
-}
+// Chinh SLide
+var slideIndex = 1;
+var slideCount = 4;
+function setSlide(n){
+    slideIndex += n;
+    let i = 1;
+    let paging = $('#header .paging p');
+    // Thay bg
+    if(slideIndex % 2 == 0)
+        $('#header .content .center').css('background','#b4d3d3');
+    else
+        $('#header .content .center').css('background','#e2e8e8');
 
-function addEventItem(){
-    $('.item').each(function(){
-        this.addEventListener("mouseover", function(){
-            $(this).toggleClass("selected");
-        })
-        this.addEventListener("mouseout", function(){
-            $(this).toggleClass("selected");
-        })
+    if(slideIndex > slideCount) slideIndex = 1;
+    $('#header .center .item-img img').attr('src',`images/${data[slideIndex-1].img.square}`)
+
+    // Chinh paging
+    paging.each(function(){
+        $(this).removeClass("selected");
+        if(i == slideIndex) $(this).toggleClass("selected");
+        i++;
     })
-}
+    $('#header .slide-num span').html('0'+slideIndex);
+    $('#header .slide-num .slash').css('width','100px');
+    setTimeout(function(){
+        $('#header .slide-num .slash').css('width','50px');
+    }, 800);
 
-function loadClients(data, genre, n){
-    var fgenre = genre;
-    if(fgenre != null){
-        data = data.filter(client => client.genre.toUpperCase() == genre);
-    }
-    $('.clients').empty();
-    for(let i = 0; i < n; i++){
-        let ctn = '<div class="item">' +
-                `<img src="images/${data[i].img.square}">` +
-                '<div class="item-btn">' +
-                '<img src="images/iconArrow.png">' +
-                '</div>' +
-                '<div class="item-content">' +
-                `<h3>${data[i].name.toUpperCase()}</h3>` +
-                `<p>${data[i].developer.toUpperCase()}</p>` +
-                '</div>' +
-                '</div>';
-        $('.clients').append(ctn);
-    }
-    addEventItem();
-}
+    // Paging right
+    $('#header .right .paging .slash').css('top',95+54*(slideIndex-1)+"px")
 
-let request = new XMLHttpRequest();
-request.open("GET", "../fakedata/client.json", false);
-request.send(null)
-let data = JSON.parse(request.responseText);
+    // Thay text
+    let info = $('#header .content .info');
+    info.html('');
+    info.css({
+        'left':'500px',
+        'opacity': '0.7',
+        'transition':'none'
+    });
+    let timer3 = setTimeout(function(){
+        let newInfo = `<h2>${data[slideIndex-1].name.toUpperCase()}</h2>` +
+                        `<p>${data[slideIndex-1].awards[0].toUpperCase()}</h2>`;
+        info.html(newInfo);
+        info.css({
+            'left':'-80px',
+            'opacity': '1',
+            'transition': '1s ease-in-out'
+        });
+    }, 400);
+}   
+
+// Lay fakedata
+let data = getFakeData("fakedata/client.json");
 data = data.clients;
 
+
+// START POINT
 loadClients(data,"AAA",8);
 
 let items = $('#talent .nav-item');
@@ -60,3 +75,22 @@ items.each(function(){
         loadClients(data,genre,8);
     })
 })
+
+setTimeout(function heroSlide(){
+    $('.hero1').css('max-width','100%');
+    let timer1 = setTimeout(function(){
+        $('.hero2').css('max-width','100%');
+    }, 300);
+    let timer2 = setTimeout(function(){
+        setSlide(1);
+        $('.hero1').css('max-width','0');
+    }, 1700);
+    let timer3 = setTimeout(function(){
+        $('.hero2').css('max-width','0');
+    }, 2000);
+    setTimeout(heroSlide, 7000);
+}, 5000);
+
+sortTopData(data);
+setSlide(0);
+loadHomeNews(getFakeData("fakedata/news.json").news);

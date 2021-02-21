@@ -7,17 +7,30 @@
     <title>News</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
 </head>
 <body>
     <header id="header">
         <div class="container">
-            <div class="bg-holder"></div>   
+            <div class="bg-holder newFeature">
+                <div class="info">
+                    <p>FEATURED NEWS</p>
+                    <h3>A Starter Guide To Self Improvement</h3>
+                </div>
+                <div class="profile-btn">
+                    <p>READ MORE</p>
+                    <div class="icon-user">
+                        <img src="images/iconArrowRight.png">
+                    </div>
+                </div>
+            </div>   
             <div class="content">
                 <div class="left">
-                    <div class="item-img">
+                    <div class="newImg">
                     </div>
                     <div class="icons">
                         <div class="icon">
@@ -33,21 +46,70 @@
                             <img src="images/iconTwitter.png">
                         </div>
                     </div>
-                    <div class="profile-btn">
-                        <p>CONTACT US</p>
-                        <div class="icon-user">
-                            <img src="images/iconUser.png">
-                        </div>
-                    </div>
                 </div>
                 <div class="center">
-                    <div class="item-content">
-                        <h3>Developing the best talent in the comedy & entertainment business.</h3>
-                        <p>Our client list is drawn from the competitive world of stand-up comedy and our boutique, focused company works closely with them to develop talents learned on the circuit into the skills needed for a long-lasting career performing and writing for television, radio and film.</p>
-                        <p>Our client list is drawn from the competitive world of stand-up comedy and our boutique, focused company works closely with them to develop talents learned on the circuit into the skills needed for a long-lasting career performing and writing for television, radio and film.</p>
+                    <div class="half col">
+                        <div class="gallery js-flickity">
+                            <div class="gallery-cell">
+                                <div class="itemImg">
+                                    <img src="images/postLIf.png">
+                                </div>
+                                <div class="itemInfo">
+                                    <h3>IF FOUND...</h3>
+                                    <p>DREAMFELL</p>
+                                </div>
+                            </div>
+                            <div class="gallery-cell">
+                                <div class="itemImg">
+                                    <img src="images/postLAnimalC.png">
+                                </div>
+                                <div class="itemInfo">
+                                    <h3>ANIMAL CROSSING: NEW HORIZONS</h3>
+                                    <p>NINTENDO</p>
+                                </div>
+                            </div>
+                            <div class="gallery-cell">
+                                <div class="itemImg">
+                                    <img src="images/postLWarzone.png">
+                                </div>
+                                <div class="itemInfo">
+                                    <h3>CALL OF DUTY: WARZONE</h3>
+                                    <p>INFINITY WARD/ACTIVISION/RAVEN SOFTWARE</p>
+                                </div>
+                            </div>
+                            <div class="gallery-cell">
+                                <div class="itemImg">
+                                    <img src="images/postLSpritfarer.png">
+                                </div>
+                                <div class="itemInfo">
+                                    <h3>SPRITFARER</h3>
+                                    <p>THUNDER LOTUS GAMES</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box-bot">
-                        <span>Motivation</span> Is The First Step To <span>Success</span>
+                    <div class="half col">
+                        <div class="newItem row">
+                        </div>
+                        <div class="newItem row">
+                        </div>
+                        <div class="newItem row">
+                        </div>
+                        <div class="newItem row">
+                        </div>
+                    </div>
+                    <div class="full trend col">
+                    </div>
+                    <div class="half newItem2">
+                    </div>
+                    <div class="half newItem2">
+                    </div>
+                    <div class="half">
+                        <div class="box-bot">
+                            <p><span>Motivation</span> Is The First Step To <span>Success</span></p>
+                        </div>
+                    </div>
+                    <div class="half newItem2">
                     </div>
                 </div>
             </div>
@@ -58,7 +120,7 @@
                     </div>
                 </div>
                 <div class="center">
-                    <img src="images/brand.png">
+                    <a href="index.html"><img src="images/brand.png"></a>
                 </div>
                 <div class="right">
                     <img src="images/iconSearch.png">
@@ -66,6 +128,16 @@
             </div>
         </div>
     </header>
+    <section id="talent">
+        <div class="container">
+            <div class="title row">
+                <h2>Our Clients</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="content clients">
+            </div>
+        </div>
+    </section>
     <footer id="footer">
         <div class="container">
             <div class="top">
@@ -94,5 +166,9 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/fakedata.js"></script>
+    <script src="js/news.js"></script>
 </body>
 </html>

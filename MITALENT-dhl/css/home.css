@@ -1,4 +1,3 @@
-
 #header .container{
     max-width: 1920px;
     height: 1140px;
@@ -8,8 +7,9 @@
 }
 
 #header .topRight{
-    width: 772px;
-    height: 723px;
+    width: 40%;
+    height: 60vh;
+    max-height: 723px;
     background-color: #b4d3d3;
     position: absolute;
     top: 0;
@@ -42,7 +42,7 @@
     width: 70%;
     display: flex;
 }
-#header .navbar .center img{
+#header .navbar .center a{
     margin: auto;
 }
 #header .navbar .right{
@@ -53,7 +53,7 @@
     margin-left: auto;
 }
 #header .content{
-    margin-top: 150px;
+    margin-top: 10vh;
     display: flex;
 }
 #header .content .left{
@@ -63,6 +63,9 @@
     display: flex;
     flex-direction: column;
 }
+#header .content .icons{
+    margin-bottom: 100px;
+}
 #header .content .icon{
     width: 16px;
     height: 16px;
@@ -71,20 +74,21 @@
 #header .content .slide-num{
     display: flex;
     margin: auto;
-    margin-left: -50px;
+    margin-left: -6px;
     align-items: center;
     transform: rotate(-90deg);
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
-    position: relative;
 }
-#header .content .slide-num::after{
+#header .content .slash{
     content: "";
     height: 1px;
     width: 50px;
     background-color: #000000;
     margin-left: 50px;
+    transition: width 1s ease;
+    position: absolute;
 }
 #header .content .profile-btn{
     margin-top: auto;
@@ -103,15 +107,46 @@
     background-color: #e2e8e8;
     position: relative;
 }
+#header .center .item-img{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#header .center .item-img img{
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+#header .center .slider{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#header .center .hero1{
+    height: 50%;
+    max-width: 0;
+    transition: max-width 1s ease;
+    background: #ffffff;
+}
+#header .center .hero2{
+    height: 50%;
+    max-width: 0;
+    transition: max-width 1s ease;
+    background: #ffffff;
+}
 #header .content .info{
     position: absolute;
     display: table-cell;
     vertical-align: middle;
-    top: 0;
     left: -80px;
     max-width: 500px;
     top: 50%;
     transform: translateY(-50%);
+    
 }
 .info h2{
     display: inline-block;
@@ -121,6 +156,8 @@
     line-height: 1.1em;
     position: relative;
     letter-spacing: 0;
+    margin-bottom: 80px;
+    left: 0;
 }
 .info h2::after{
     content: "";
@@ -136,7 +173,6 @@
 .info p{
     font-size: 1.7rem;
     font-weight: 700;
-    margin-top: 80px;
 }
 #header .content .play-btn{
     display: flex;
@@ -160,6 +196,7 @@
     height: 362px;
 }
 #header .right .paging{
+    position: relative;
     padding: 70px;
 }
 #header .right .paging p{
@@ -173,13 +210,16 @@
     display: flex;
     align-items: center;
 }
-#header .right .selected::after{
+#header .right .paging .slash{
     display: block;
+    position: absolute;
+    top: 95px;
     content: "";
     height: 1px;
     width: 50px;
     background-color: #000000;
     margin-left: 100px;
+    transition: top 1s ease-in-out;
 }
 
 /* Center */
@@ -286,14 +326,15 @@
 /*news*/
 #news .container{
     margin-top: 100px;
-    max-width: 1683px;
+    max-width: 1740px;
+    padding: 0 30px;
     display: grid;
     grid-template-areas:
         'head head head'
         'new1 new2 new3'
         'trend trend rightSld'
         'new4 vidSld rightSld';
-    grid-gap: 50px;
+    grid-gap: 3vh;
 }
 #news .head{
     grid-area: head;
@@ -385,6 +426,14 @@
 #news .trend .itemImg{
     height: 100%;
     max-width: 686px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+
+#news .trend .itemImg img{
+    position: relative;
+
 }
 #news .trendTag{
     width: 210px;
@@ -407,7 +456,6 @@
     margin: auto;
     width: 100%;
     height: 860px;
-    background-color: #e2e8e8;
     overflow: hidden;
     position: relative;
 }
@@ -458,7 +506,7 @@
     grid-area: vidSld;
     height: 425px;
     position: relative;
-    background: #e2e8e8;
+    background: #a8a8a8;
 }
 #news .vidSld .playAll{
     position: absolute;
@@ -484,9 +532,6 @@
 #news .playAll .play-btn img{
     margin: auto;
 }
-#news .vidSld .gallery-cell img{
-    height: 100%;
-}
 #news .vidSld .gallery-cell{
     width: 100%;
     height: 425px;
@@ -508,6 +553,16 @@
 }
 #news .vidSld .dot{
     margin-top: 20px;
+}
+#news .vidSld .item-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#news .vidSld .item-img img{
+    position: absolute;
+    right: 20%;
+    top: 20%;
 }
 #news .newItem{
     display: flex;

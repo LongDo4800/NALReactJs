@@ -8,8 +8,46 @@
 .row{
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 .col{
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media (max-width: 1200px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width: 992px) {
+    html{
+        font-size: 35%;
+    }
+    #footer .top .left img{
+        width: 125px;
+    }
+    
+    #header .navbar .center img{
+        width: 150px;
+    }
+}
+@media (max-width: 576px) {
 }

@@ -1,15 +1,16 @@
 
 #header .container{
     max-width: 1940px;
-    height: 1140px;
-    padding-left: 55px;
+    max-height: 1140px;
+    /* height: 90vw; */
+    padding-left: 5.5rem;
     padding: 0;
     position: relative;
 }
 
 #header .topRight{
-    width: 243px;
-    height: 543px;
+    width: 13%;
+    height: 50vh;
     background-color: #b4d3d3;
     position: absolute;
     top: 0;
@@ -17,21 +18,29 @@
     z-index: 0;
 }
 #header .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 55px 55px;
+    padding: 5.5rem;
+    z-index: 3;
 }
 #header .navbar .left{
-    width: 15%;
+    width: 50%;
     display: flex;
     align-items: center;
-    font-size: 1.4em;
+    font-size: 14px;
     font-weight: 800;
 }
-#header .navbar .left > *{
-    padding-right: 50px;
+#header .navbar .left a{
+    padding-left: 5rem;
+}
+#header .navbar .left .menu{
+    max-width: none;
+    overflow: hidden;
 }
 #header .iconMenu{
     width: 20px;
@@ -39,15 +48,14 @@
     cursor: pointer;
 }
 #header .navbar .center{
-    width: 70%;
+    width: 20%;
     display: flex;
-    padding-left: 230px;
 }
-#header .navbar .center img{
+#header .navbar .center a{
     margin: auto;
 }
 #header .navbar .right{
-    width: 15%;
+    width: 30%;
     display: flex;
 }
 #header .navbar .right img{
@@ -55,53 +63,56 @@
 }
 #header .content{
     width: 100%;
-    height: 1083px;
+    max-height: 1083px;
     display: flex;
-    position: absolute;
+    position: relative;
     top: 0;
 }
 #header .content .left{
     width: 50%;
-    height: 100%;
-    padding: 0 0 0 55px;
+    height: 80%;
+    padding: 0 0 0 5.5rem;
     display: flex;
     flex-direction: column;
     position: relative;
 }
-#header .content .left .item-img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 90%;
-    overflow: hidden;
-}
-#header .content .item-img img{
-    height: 100%;
-}
 #header .bg-holder{
-    width: 772px;
-    height: 1083px;
+    width: 40%;
+    max-height: 1083px;
+    height: 55vw;
     background: #e2e8e8;
     position: absolute;
-    z-index: 0;
+    z-index: 2;
 }
-#header .content .icons{
+#header .bg-holder .item-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#header .bg-holder .item-img img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#header .icons{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    margin-left: 5.5rem;
 }
-#header .content .icon{
+#header .icon{
     width: 16px;
     height: 16px;
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
 }
 #header .profile-btn{
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 482px;
-    height: 113px;
+    max-width: 482px;
+    width: 65%;
+    max-height: 113px;
+    height: 8vw;
     background-color: #b4d3d3;
     text-align: center;
     display: flex;
@@ -109,29 +120,32 @@
 #header .profile-btn p{
     font-size: 1.4rem;
     font-weight: 800;
-    line-height: 113px;
     color: #ffffff;
-    width: 369px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
 }
-#header .profile-btn .icon-user{
-    width: 113px;
-    height: 113px;
+#header .profile-btn a{
+    width: 30%;
+    height: 100%;
     background-color: #ffffff;
     display: flex;
     margin-left: auto;
 }
-#header .icon-user img{
+#header .icon-user{
     margin: auto;
 }
 #header .content .center{
-    max-width: 580px;
+    width: 50%;
+    padding-right: 5rem;
+    max-width: 63rem;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 #header .content .item-content{
     width: 100%;
-    margin-top: 250px;
+    margin-top: 25rem;
 }
 #header .item-content h3{
     font-size: 2.4rem;
@@ -150,15 +164,15 @@
 #header .item-content p{
     font-size: 1.6rem;
     color: rgb(119,119,126);
-    padding-top: 50px;
+    padding-top: 5rem;
     line-height: 2.3em;
     letter-spacing: 0;
 }
 #header .content .box-bot{
-    margin-top: auto;
+    margin-top: 5rem;
     background: #1a1a1d;
     width: 100%;
-    padding: 95px 110px;
+    padding: 9.5rem 11rem;
     text-align: center;
     font-size: 3rem;
     font-family: 'Playfair Display', serif;
@@ -169,45 +183,105 @@
     font-style: italic;
     font-weight: 800;
 }
-/* Center */
 
+@media (max-width: 768px){
+    #header .navbar .left .menu{
+        max-width: 0;
+    }
+    #header .icon{
+        width: 12px;
+        height: 12px;
+    }
+    #header .icon >img{
+        width: 100%;
+    }
+    #header .icon-user img{
+        width: 12px;
+    }
+}
+@media (max-width: 572px){
+    #header .navbar .left{
+        width: 20%;
+    }
+    #header .navbar .center{
+        width: 60%;
+    }
+    #header .navbar .right{
+        width: 20%;
+    }
+    #header .navbar .center img{
+        width: 150px;
+    }
+    #header .bg-holder{
+        display: none;
+    }
+    #header .content{
+        width: 100%;
+    }
+    #header .content .left{
+        display: none;
+    }
+    #header .content .center{
+        width: 80%;
+        margin: auto;
+    }
+}
+/* Center */
 #talent .container{
+    padding: 0 30px;
     padding-top: 70px;
-    max-width: 1682px;
+    max-width: 1742px;
     margin: auto;
-    display: flex;
     align-items: center;
-    flex-direction: column;
 }
 #talent .nav-item{
     display: inline-block;
     padding: 14px 28px;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 12px;
     font-weight: 900;
     color: rgb(105,105,112)
+}
+#talent .top{
+    align-items: center;
+}
+#talent .layout {
+    margin-left: auto;
+    margin-right: 0;
+    min-width: 80px;
+    align-items: center;
+}
+#talent .layout a{
+    display: block;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+#talent .layout a.selected{
+    opacity: 1;
 }
 #talent .navbar .selected{
     transition: color 0.25s;
     color: rgb(26,26,29);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #000000;
 }
 #talent .content{
-    padding-top: 80px;
+    padding-top: 8rem;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+#talent .content > a{
+    width: 25%;
 }
 #talent .item{
-    width: 25%;
-    height: 494px;
-    text-align: center;
-    background-color: #d3dcdc;
+    width: 100%;
     position: relative;
 }
-#talent .item:nth-child(1),#talent .item:nth-child(3),#talent .item:nth-child(6),#talent .item:nth-child(8){
-    background-color: #e2e8e8;
+#talent .item > img{
+    width: 100%;
 }
 #talent .item .item-btn{
     width: 58px;
@@ -238,8 +312,9 @@
     font-weight: 800;
     font-size: 1.2rem;
 }
-#talent .content .selected{
-    background-color: #2d2f33;
+#talent .content .selected > img{
+    background-color: rgba(45, 47, 51,0.5);
+    filter: brightness(50%);
 }
 #talent .content .selected > *{
     display: block;
@@ -257,19 +332,32 @@
     color: #ffffff;
     border-radius: 63px;
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: 14px;
+}
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    #talent .layout img{
+        width: 12px;
+    }
+}
+@media (max-width: 576px) {
+    #talent .content > a{
+        width: 50%;
+    }
 }
 /*footer*/
 #footer .container{
     max-width: 1802px;
     margin: auto;
-    margin-top: 160px;
+    margin-top: 16rem;
 }
 #footer .top{
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 30px 0;
+    padding: 3rem 0;
     border-bottom: 1px solid #f5f5f5;
 }
 #footer .top .left{
@@ -278,7 +366,7 @@
 #footer .top p::before{
     position: absolute;
     top: -20px;
-    left: -46px;
+    left: -4.6rem;
     display: block;
     content: "";
     width: 2px;
@@ -287,13 +375,13 @@
 }
 #footer .top p{
     position: relative;
-    padding: 0 46px;
+    padding: 0 4.6rem;
 }
 #footer .bottom{
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 30px 0;
+    padding: 3rem 0;
     border-bottom: 1px solid #f5f5f5;
 }
 #footer .bottom .left{
@@ -304,5 +392,5 @@
 #footer .bottom .icon{
     width: 16px;
     height: 16px;
-    margin-left: 36px;
+    margin-left: 3.6rem;
 }

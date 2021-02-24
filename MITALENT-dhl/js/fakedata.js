@@ -24,12 +24,13 @@ function addEventItem(){
 
 function loadClients(data, genre, n){
     var fgenre = genre;
+    if(n == -1) n = data.length;
     if(fgenre != null){
         data = data.filter(client => client.genre.toUpperCase() == genre);
     }
     $('.clients').empty();
     for(let i = 0; i < n; i++){
-        let ctn = `<a href="#"><div class="item">
+        let ctn = `<a href="profile.html"><div class="item">
                     <img src="images/${data[i].img.square}">
                     <div class="item-btn">
                         <img src="images/iconArrow.png">
@@ -40,6 +41,30 @@ function loadClients(data, genre, n){
                     </div>
                 </div></a>`;
         $('.clients').append(ctn);
+    }
+    addEventItem();
+}
+
+function loadClientsToCarousel(data, genre, n){
+    var fgenre = genre;
+    if(n == -1) n = data.length;
+    if(fgenre != null){
+        data = data.filter(client => client.genre.toUpperCase() == genre);
+    }
+    $('.talent-carousel').empty();
+    for(let i = 0; i < n; i++){
+        let ctn = `<div class="carousel-cell"><a href="profile.html"><div class="item">
+                    <img src="images/${data[i].img.square}">
+                    <div class="item-btn">
+                        <img src="images/iconArrow.png">
+                    </div>
+                    <div class="item-content">
+                        <h3>${data[i].name.toUpperCase()}</h3>
+                        <p>${data[i].developer.toUpperCase()}</p>
+                    </div>
+                </div></a></div>`;
+        console.log(ctn);
+        $('.talent-carousel').append(ctn);
     }
     addEventItem();
 }

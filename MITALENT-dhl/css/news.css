@@ -81,9 +81,9 @@
     height: 100%;
 }
 #header .bg-holder{
-    width: 772px;
-    height: 1083px;
-    
+    width: 40%;
+    height: 50vw;
+    max-height: 1083px;
     background: linear-gradient(#e2e8e8 50%,#56575a);
     position: absolute;
     z-index: 0;
@@ -120,8 +120,7 @@
 }
 #header .content .icons{
     position: absolute;
-    top: 24%;
-    transform: translateY(-50%);
+    top: 20vw;
 }
 #header .content .icon{
     width: 16px;
@@ -206,7 +205,8 @@
 }
 #header .center .newItem2 .newImg{
     width: 100%;
-    height: 318px;
+    max-height: 320px;
+    height: 16vw;
     overflow: hidden;
 }
 #header .center .newItem2 .newImg img{
@@ -220,10 +220,13 @@
 #header .center .newContent h3{
     font-family: 'Poppins', sans-serif;
     font-size: 2.4rem;
+    letter-spacing: 0;
+    overflow: hidden;
 }
 #header .center .newContent p{
     margin-top: auto;
     font-size: 1.6rem;
+    letter-spacing: 0;
     color: rgb(119,119,126);
 }
 #header .gallery .itemImg{
@@ -244,12 +247,14 @@
 #header .gallery h3{
     font-family: 'Poppins', sans-serif;
     font-size: 2.4rem;
+    letter-spacing: 0;
 }
 #header .gallery p{
     margin-top: auto;
     font-size: 1.6rem;
     font-weight: 700;
     color: rgb(119,119,126);
+    letter-spacing: 0;
 }
 #header .itemImg img{
     height: 100%;
@@ -278,7 +283,8 @@
 }
 #header .trend{
     grid-area: trend;
-    height: 631px;
+    max-height: 631px;
+    height: 35vw;
     max-width: 955px;
     position: relative;
     display: inline-flex;
@@ -348,6 +354,27 @@
 #header .content .box-bot span{
     font-style: italic;
     font-weight: 800;
+}
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+    .bg-holder{
+        display: none;
+    }
+    #header .content .left{
+        width: 15%;
+    }
+    #header .content .center{
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+
+}
+@media (max-width: 576px) {
 }
 
 /*talent*/

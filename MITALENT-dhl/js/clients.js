@@ -19,7 +19,15 @@ showSlides(0,0);
 showSlides(1,0);
 
 function plusSlides(no,n) {
-    showSlides(no,n);
+    let hero1 = $("#header .hero1");
+    let hero2 = $("#header .hero2");
+    hero1.toggleClass("superHero");
+    setTimeout(() => hero2.toggleClass("superHero"), 200);
+    setTimeout(() => {
+        showSlides(no,n);
+        hero1.toggleClass("superHero");
+    }, 1500);
+    setTimeout(() => hero2.toggleClass("superHero"), 1700);
 }
 function showSlides(no,n){
     slideIndex[no] += n;
@@ -28,7 +36,7 @@ function showSlides(no,n){
 
     if(slideIndex[no] > slideCount[no]) slideIndex[no] = 1;
     if(slideIndex[no] < 1) slideIndex[no] = slideCount[no];
-
+    $('.slide-num span').html("0"+slideIndex[no]);
     slides.each(function(){
         $(this).css('display','none');
         if(i == slideIndex[no]) $(this).css('display','block');

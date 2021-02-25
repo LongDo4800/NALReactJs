@@ -47,6 +47,16 @@
 @media (max-width: 768px){
     #header .navbar .left .menu{
         max-width: 0;
+        position: absolute;
+        flex-direction: column;
+        top: 10rem;
+        background: #ffffff;
+        width: 50%;
+    }
+    #header .navbar .left .menu a{
+        display: block;
+        width: 100%;
+        padding: 2rem 0;
     }
 }
 @media (max-width: 572px){
@@ -61,6 +71,20 @@
     }
     #header .navbar .center img{
         width: 150px;
+    }
+    #header .navbar .left .menu{
+        position: absolute;
+        flex-direction: column;
+        top: 10rem;
+        background: #ffffff;
+        width: 50%;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 2px 5px 8px #888888;
+    }
+    #header .navbar .left .menu a{
+        display: block;
+        width: 100%;
+        padding: 2rem;
     }
 }
 /* content */
@@ -157,6 +181,9 @@
 }
 #content .center1 .gallery-cell img{
     width: 100%;
+}
+#content .center1 .flickity-prev-next-button {
+    display:none;
 }
 #content .mySlides {
   display: none;
@@ -487,6 +514,98 @@
 @media (max-width: 572px){
     #content3 .container .right{
         width: 90%;
+    }
+}
+/* other */
+#other .container{
+    max-width: 1980px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 10rem;
+}
+#other .top{
+    max-width: 58rem;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+#other .top h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 6rem;
+    letter-spacing: 0;
+    padding-bottom: 5rem;
+    position: relative;
+}
+#other .top h2::after{
+    content: "";
+    width: 40%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1a1a1d;
+}
+#other .bottom{
+    margin-top: 10rem;
+    width: 100%;
+    overflow: hidden;
+}
+#other .gallery-cell{
+    width: 33.333333%;
+    padding: 0 5rem;
+}
+#other .newItem{
+    width: 100%;
+    padding: 1rem;
+    padding-left: 0;
+}
+#other .newImg{
+    overflow: hidden;
+    width: 30%;
+    height: 100%;
+}
+#other .newImg img{
+    width: 100%;
+}
+#other .newContent{
+    padding-left: 5%;
+    width: 70%;
+}
+#other .newContent h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+#other .newContent p{
+    font-size: 1.6rem;
+    margin-top: auto;
+    color: rgba(119,119,126,255);
+}
+@media (max-width: 1200px){
+    #other .newImg{
+        width: 50%;
+    }
+    #other .newContent{
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    #other .gallery-cell{
+        width: 50%;
+    }
+}
+@media (max-width: 572px){
+    #other .gallery-cell{
+        width: 100%;
+    }
+    #other .newImg{
+        width: 50%;
+    }
+    #other .newContent{
+        width: 50%;
     }
 }
 /* footer */

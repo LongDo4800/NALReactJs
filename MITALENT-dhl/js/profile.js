@@ -25,7 +25,13 @@ function showSlides(no,n){
 
     if(slideIndex[no] > slideCount[no]) slideIndex[no] = 1;
     if(slideIndex[no] < 1) slideIndex[no] = slideCount[no];
-
+    $('#header .paging .slash').css('top',`calc(2.5rem + ${(slideIndex-1)* 5.5}rem)`);
+    $('#header .paging p').each(function(){
+        $(this).removeClass('selected');
+        if(i == slideIndex) $(this).toggleClass('selected');
+        i++;
+    });
+    i = 1;
     slides.each(function(){
         $(this).css('display','none');
         if(i == slideIndex[no]) $(this).css('display','block');

@@ -72,6 +72,20 @@
     #header .navbar .right{
         width: 20%;
     }
+    #header .navbar .left .menu{
+        position: absolute;
+        flex-direction: column;
+        top: 10rem;
+        background: #ffffff;
+        width: 50%;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 2px 5px 8px #888888;
+    }
+    #header .navbar .left .menu a{
+        display: block;
+        width: 100%;
+        padding: 2rem;
+    }
 }
 #header .content{
     margin-top: 5rem;
@@ -100,6 +114,28 @@
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
+}
+#header .hero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#header .hero1{
+    width: 0;
+    background: #ffffff;
+    height: 50%;
+    transition: width 1s ease;
+}
+#header .hero2{
+    width: 0;
+    background: #ffffff;
+    height: 50%;
+    transition: width 1s ease;
+}
+#header .superHero{
+    width: 100%;
 }
 #header .content .slash{
     content: "";
@@ -306,6 +342,9 @@
     #header .other .info h3{
         font-size: 2rem;
     }
+    #header .content .profile-btn{
+        padding: 2rem 4rem;
+    }
 }
 /* talent */
 #talent .container{
@@ -364,14 +403,14 @@
     width: 100%;
 }
 #talent .item .item-btn{
-    width: 58px;
-    height: 58px;
+    width: 5.8rem;
+    height: 5.8rem;
     background-color: #b4d3d3;
     border-radius: 50%;
     position: absolute;
-    right: 20px;
-    top: 20px;
-    padding: 21px;
+    right: 2rem;
+    top: 2rem;
+    padding: 2.1rem;
     display: none;
 }
 #talent .item .item-content{
@@ -379,7 +418,7 @@
     bottom: 0;
     text-align: center;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
     color: #ffffff;
     display: none;
 }
@@ -401,13 +440,15 @@
 }
 @media (max-width: 992px) {
 }
-
 @media (max-width: 768px) {
     #talent .content > a{
         width: 33.333333%;
     }
     #talent .layout img{
         width: 12px;
+    }
+    #talent .item-btn img{
+        width: 10px;
     }
 }
 @media (max-width: 576px) {
@@ -721,8 +762,9 @@
     #news .newItem .newContent{
         width: 100%;
         height: 15rem;
+        padding-left: 0;
     }
-    #news .newItem .newContent h3{
+    #news .newItem .newContent a{
         max-height: 80%;
         overflow: hidden;
     }

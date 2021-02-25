@@ -51,3 +51,9 @@
 }
 @media (max-width: 576px) {
 }
+.active{
+    max-width: none!important;
+}
+.icon:hover{
+    opacity: 0.5;
+}

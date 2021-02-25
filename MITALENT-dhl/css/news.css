@@ -2,7 +2,7 @@
 #header .container{
     max-width: 1940px;
     /* height: 1140px; */
-    padding-left: 55px;
+    padding-left: 5.5rem;
     padding: 0;
     position: relative;
 }
@@ -20,20 +20,25 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 5.5rem;
     position: absolute;
     top: 0;
-    align-items: center;
-    padding: 55px 55px;
+    left: 0;
 }
 #header .navbar .left{
-    width: 15%;
+    width: 35%;
     display: flex;
     align-items: center;
-    font-size: 1.4em;
+    font-size: 14px;
     font-weight: 800;
 }
-#header .navbar .left > *{
-    padding-right: 50px;
+#header .navbar .left .menu{
+    max-width: 0;
+    overflow: hidden;
+}
+#header .navbar .left a{
+    padding-left:4rem;
 }
 #header .iconMenu{
     width: 20px;
@@ -41,19 +46,51 @@
     cursor: pointer;
 }
 #header .navbar .center{
-    width: 70%;
+    width: 45%;
     display: flex;
-    padding-left: 230px;
 }
 #header .navbar .center a{
     margin: auto;
 }
 #header .navbar .right{
-    width: 15%;
+    width: 20%;
     display: flex;
 }
 #header .navbar .right img{
     margin-left: auto;
+}
+@media (max-width: 768px){
+    #header .navbar .left .menu{
+        max-width: 0;
+    }
+}
+@media (max-width: 572px){
+    #header .navbar .left{
+        width: 20%;
+    }
+    #header .navbar .center{
+        width: 60%;
+    }
+    #header .navbar .right{
+        width: 20%;
+    }
+    #header .navbar .center img{
+        width: 150px;
+    }
+    #header .navbar .left .menu{
+        position: absolute;
+        flex-direction: column;
+        top: 10rem;
+        background: #ffffff;
+        width: 50%;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 2px 5px 8px #888888;
+    }
+    #header .navbar .left .menu a{
+        display: block;
+        width: 100%;
+        padding: 2rem;
+    }
 }
 #header .content{
     width: 100%;
@@ -63,7 +100,7 @@
 }
 #header .content .left{
     width: 50%;
-    padding: 0 0 0 55px;
+    padding: 0 0 0 5.5rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -82,18 +119,23 @@
 }
 #header .bg-holder{
     width: 40%;
-    height: 50vw;
+    height: 58vw;
     max-height: 1083px;
     background: linear-gradient(#e2e8e8 50%,#56575a);
     position: absolute;
     z-index: 0;
+    overflow: hidden;
+}
+#header .bg-holder .newImg img{
+    width: 100%;
 }
 #header .bg-holder .info{
     position: absolute;
     right: 0;
     bottom: 200px;
     max-width: 616px;
-    padding-right: 108px;
+    padding-right: 10.8rem;
+    padding-left:4rem;
 }
 #header .bg-holder .info p{
     font-size: 1.3rem;
@@ -111,28 +153,28 @@
 }
 #header .bg-holder .info h3::after{
     content: "";
-    width: 108px;
-    height: 9px;
+    width: 10.8rem;
+    height: 0.9rem;
     background-color: #ffffff;
     position: absolute;
-    right: -108px;
-    top: 20px
+    right: -10.8rem;
+    top: 2rem;
 }
 #header .content .icons{
     position: absolute;
-    top: 20vw;
+    top: 15vw;
 }
 #header .content .icon{
     width: 16px;
     height: 16px;
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
 }
 #header .profile-btn{
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 372px;
-    height: 113px;
+    width: 37.2rem;
+    height: 11.3rem;
     background-color: #b4d3d3;
     text-align: center;
     display: flex;
@@ -140,13 +182,13 @@
 #header .profile-btn p{
     font-size: 1.4rem;
     font-weight: 800;
-    line-height: 113px;
+    line-height: 11.3rem;
     color: #000000;
-    width: 263px;
+    width: 26.3rem;
 }
 #header .profile-btn .icon-user{
-    width: 113px;
-    height: 113px;
+    width: 11.3rem;
+    height: 11.3rem;
     background-color: #ffffff;
     display: flex;
     margin-left: auto;
@@ -156,21 +198,21 @@
 }
 #header .content .center{
     width: 50%;
-    padding-right: 50px;
-    padding-top: 150px;
+    padding-right:4rem;
+    padding-top: 15rem;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 #header .center .half{
     width: 50%;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding-right:4rem;
+    padding-bottom:4rem;
 }
 #header .center .full{
     width: 100%;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding-right:4rem;
+    padding-bottom:4rem;
 }
 .col{
     display: flex;
@@ -184,6 +226,7 @@
 #header .center .newItem{
     width: 100%;
     margin: auto;
+    margin-top:4rem;
 }
 #header .center .newItem:last-child{
     margin-bottom: 0;
@@ -192,16 +235,15 @@
     margin-top: 0;
 }
 #header .center .newItem .newImg{
-    min-width: 183px;
-    height: 144px;
+    width: 50%;
     overflow: hidden;
 }
 #header .center .newItem .newImg img{
-    position: relative;
-    left: -30px;
+    width: 100%;
 }
 #header .center .newItem .newContent{
-    margin-left: 20px;
+    width: 50%;
+    margin-left: 2rem;
 }
 #header .center .newItem2 .newImg{
     width: 100%;
@@ -211,11 +253,11 @@
 }
 #header .center .newItem2 .newImg img{
     position: relative;
-    left: -70px;
+    left: -7rem;
 }
 #header .center .newItem2 .newContent{
-    margin-top: 20px;
-    height: 130px;
+    margin-top: 2rem;
+    height: 13rem;
 }
 #header .center .newContent h3{
     font-family: 'Poppins', sans-serif;
@@ -232,14 +274,17 @@
 #header .gallery .itemImg{
     margin: auto;
     width: 100%;
-    height: 607px;
+    max-height: 607px;
     overflow: hidden;
     position: relative;
 }
+#header .gallery .itemImg img{
+    width: 100%;
+}
 #header .gallery .itemInfo{
-    margin-top: 35px;
-    margin-bottom: 0;
-    height: 100px;
+    margin-top: auto;
+    height: 10rem;
+    margin-top:4rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -255,11 +300,6 @@
     font-weight: 700;
     color: rgb(119,119,126);
     letter-spacing: 0;
-}
-#header .itemImg img{
-    height: 100%;
-    position: absolute;
-    right: 0;
 }
 #header .dot{
     width: 7px;
@@ -279,12 +319,11 @@
 }
 #header .gallery .flickity-page-dots {
     position: absolute;
-    bottom: 180px;
+    bottom: 25%;
 }
 #header .trend{
     grid-area: trend;
     max-height: 631px;
-    height: 35vw;
     max-width: 955px;
     position: relative;
     display: inline-flex;
@@ -302,16 +341,15 @@
 #header .trend .info h3{
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 #header .trend .info p{
-    margin-top: 30px;
+    margin-top: 3rem;
     font-size: 1.6rem;
     font-weight: 700;
     color: rgb(119,119,126);
 }
 #header .trend .itemImg{
-    height: 535px;
     max-width: 955px;
     overflow: hidden;
     background-color: #e2e8e8;
@@ -319,18 +357,15 @@
 }
 
 #header .trend .itemImg img{
-    position: absolute;
-    right: 0;
     width: 100%;
-    height: auto;
 }
 #header .trendTag{
-    width: 210px;
-    height: 60px;
+    width: 21rem;
+    height: 6rem;
     position: absolute;
-    top: 10px;
-    right: 65px;
-    line-height: 60px;
+    top: 1rem;
+    right: 6.5rem;
+    line-height: 6rem;
     text-align: center;
     background-color: #ffffff;
     font-size: 1.4rem;
@@ -371,10 +406,31 @@
 }
 
 @media (max-width: 768px) {
-    
-
+    #header .center .newItem2 .newImg img{
+        left: 0;
+        width: 100%;
+        height: auto;
+        top: -15%;
+    }
+    #header .content .icons{
+        top: 25vw;
+    }
+    #header .icon img{
+        width: 12px;
+        height: 12px;
+    }
 }
 @media (max-width: 576px) {
+    #header .half:nth-child(1),
+    #header .half:nth-child(2){
+        width: 100%;
+    }
+    #header .center .newItem .newImg{
+        width: 30%;
+    }
+    #header .center .newItem .newContent{
+        width: 70%;
+    }
 }
 
 /*talent*/
@@ -399,16 +455,17 @@
 }
 #talent .title h2::after{
     content: "";
-    width: 143px;
-    height: 2px;
+    width: 14.3rem;
+    height: 0.2rem;
     background-color: #1a1a1d;
     position: absolute;
-    bottom: -50px;
+    bottom: -5rem;
     left: 0;
 }
 #talent .title p{
     margin-left: auto;
     max-width: 566px;
+    width: 60%;
     font-size: 1.6rem;
     color: rgba(118,118,121);
     padding-top: 15px;
@@ -422,33 +479,25 @@
     align-items: center;
     justify-content: center;
 }
+#talent .content > a{
+    width: 25%;
+}
 #talent .item{
-    width: 420px;
-    height: 494px;
-    text-align: center;
-    background-color: #d3dcdc;
+    width: 100%;
     position: relative;
-    overflow: hidden;
-    cursor: pointer;
 }
 #talent .item > img{
-    height: 100%;
-    position: absolute;
-    left: -30px;
-
-}
-#talent .item:nth-child(1),#talent .item:nth-child(3),#talent .item:nth-child(6),#talent .item:nth-child(8){
-    background-color: #e2e8e8;
+    width: 100%;
 }
 #talent .item .item-btn{
-    width: 58px;
-    height: 58px;
+    width: 5.8rem;
+    height: 5.8rem;
     background-color: #b4d3d3;
     border-radius: 50%;
     position: absolute;
-    right: 20px;
-    top: 20px;
-    padding: 21px;
+    right: 2rem;
+    top: 2rem;
+    padding: 2.1rem;
     display: none;
 }
 #talent .item .item-content{
@@ -456,7 +505,7 @@
     bottom: 0;
     text-align: center;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
     color: #ffffff;
     display: none;
 }
@@ -476,32 +525,60 @@
 #talent .content .selected > *{
     display: block;
 }
+#talent .clients .talent-carousel{
+    width: 100%;
+}
+#talent .carousel-cell {
+    width: 25%;
+}
+#talent .carousel-cell .item{
+    width: 100%;
+    position: relative;
+}
+#talent .carousel-cell .item > img{
+    width: 100%;
+}
 #talent .bottom{
-    padding: 58px 0;
+    padding: 5.8rem 0;
 }
 #talent .bottom a{
     display: block;
-    width: 226px;
-    height: 63px;
-    line-height: 63px;
+    width: 22.6rem;
+    height: 6.3rem;
+    line-height: 6.3rem;
     text-align: center;
     background-color: #b4d3d3;
     color: #ffffff;
-    border-radius: 63px;
+    border-radius: 6.3rem;
     font-weight: 800;
     font-size: 1.4rem;
+}
+
+
+@media (max-width: 768px){
+    #talent .carousel-cell {
+        width: 33.333333%;
+    }
+    #talent .item-btn img{
+        width: 10px;
+    }
+}
+@media (max-width: 572px){
+    #talent .carousel-cell {
+        width: 50%;
+    }
 }
 /*footer*/
 #footer .container{
     max-width: 1802px;
     margin: auto;
-    margin-top: 160px;
+    margin-top: 16rem;
 }
 #footer .top{
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 30px 0;
+    padding: 3rem 0;
     border-bottom: 1px solid #f5f5f5;
 }
 #footer .top .left{
@@ -510,7 +587,7 @@
 #footer .top p::before{
     position: absolute;
     top: -20px;
-    left: -46px;
+    left: -4.6rem;
     display: block;
     content: "";
     width: 2px;
@@ -519,13 +596,13 @@
 }
 #footer .top p{
     position: relative;
-    padding: 0 46px;
+    padding: 0 4.6rem;
 }
 #footer .bottom{
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 30px 0;
+    padding: 3rem 0;
     border-bottom: 1px solid #f5f5f5;
 }
 #footer .bottom .left{
@@ -536,5 +613,5 @@
 #footer .bottom .icon{
     width: 16px;
     height: 16px;
-    margin-left: 36px;
+    margin-left: 3.6rem;
 }

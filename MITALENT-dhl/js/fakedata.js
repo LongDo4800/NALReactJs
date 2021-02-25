@@ -63,7 +63,6 @@ function loadClientsToCarousel(data, genre, n){
                         <p>${data[i].developer.toUpperCase()}</p>
                     </div>
                 </div></a></div>`;
-        console.log(ctn);
         $('.talent-carousel').append(ctn);
     }
     addEventItem();
@@ -145,3 +144,7 @@ function sortTopData(data){
         return b.awards.length - a.awards.length;
     })
 }
+
+$('#header .iconMenu').click(function(){
+    $('#header .menu').toggleClass("active");
+});
